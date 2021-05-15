@@ -101,6 +101,7 @@ def okumura_hata(f, d, hbe, hm, tipoCidade):
         -tipoCidade (pequena, média ou grande)
     E retorna a mediana da atenuação em dB
     """
+    
     if 150 < f < 1500 and 1 < d < 20 and 30 < hbe < 200 and 1 < hm < 10:
         try:
             Hmu = hmu(hm, f, tipoCidade)
