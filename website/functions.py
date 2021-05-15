@@ -7,7 +7,7 @@ import matplotlib
 matplotlib.use('agg')
 
 
-def atenuacaoEspacoLivre(f: "frequencia [GHz]", ptx: "potencia [dBm]", prx_min: "potencia minima [dBm]"):
+def atenuacaoEspacoLivre_grafico(f: "frequencia [GHz]", ptx: "potencia [dBm]", prx_min: "potencia minima [dBm]"):
     l_d = []
     l_prx = []
     l_prx_min = []

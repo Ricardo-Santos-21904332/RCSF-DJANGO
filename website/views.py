@@ -4,6 +4,7 @@ from . import functions
 from .forms import FormEspacoLivre
 from .forms import FormOkumuraHata
 from .forms import FormWalfischIkegami
+from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
 
 
@@ -42,7 +43,7 @@ def espaco_livre(request):
 
     if form.is_valid():
         submetido = True
-        atenuacaoEspacoLivre(
+        atenuacaoEspacoLivre_grafico(
             form.cleaned_data['frequencia'],
             form.cleaned_data['potencia'],
             form.cleaned_data['prx_minima']
