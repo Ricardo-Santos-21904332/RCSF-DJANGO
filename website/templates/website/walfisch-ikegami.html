@@ -1,0 +1,25 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Modelo de Walfisch-Ikegami</h2>
+
+        <form action=" {% url 'website:walfisch-ikegami' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        {% if result == "Distância inválida!" or  result == "Frequência inválida!" or result == "Parâmetros inválidos!" and submetido %}
+            <p>{{ result }}</p>
+        {% elif submetido %}
+            <p>Para uma frequência de {{ form.data.frequencia }} MHz e uma distância de {{ form.data.distancia }}
+                metros, a mediana da atenuação de propagação (Lp) segundo o modelo de Walfisch-Ikegami é
+                de {{ result }} dB.</p>
+        {% endif %}
+
+    </div>
+{% endblock main %}
