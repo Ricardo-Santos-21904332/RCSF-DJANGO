@@ -1,5 +1,4 @@
 # RCSF-Django
-Web App em Django de Redes De Comunicações Sem Fios
 ![RCSF](https://user-images.githubusercontent.com/56162588/118394801-c2f51000-b63e-11eb-9c74-e46b3404429f.jpg)
 
 ### Passos para lançar e editar a aplicação
