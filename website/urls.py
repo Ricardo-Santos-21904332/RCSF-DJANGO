@@ -11,5 +11,7 @@ urlpatterns = [
     path('cloud_ran/', views.cloud_ran, name='cloud_ran'),
     path('espaco_livre', views.espaco_livre, name="espaco_livre"),
     path('okumura_hata/', views.okumura_hata, name='okumura_hata'),
-    path('walfisch-ikegami/', views.walfisch_ikegami, name='walfisch-ikegami')
+    path('walfisch_ikegami/', views.walfisch_ikegami, name='walfisch_ikegami'),
+    path('tamanho_cluster/', views.tamanho_cluster, name='tamanho_cluster'),
+    path('grafico_CI_Ncp/', views.grafico_CI_Ncp, name='grafico_CI_Ncp'),
 ]

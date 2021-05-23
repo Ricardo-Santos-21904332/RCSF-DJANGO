@@ -131,3 +131,26 @@ def walfisch_ikegami(f, d):
         return "{:.2f}".format(lp)
     else:
         return "Frequência inválida!"
+
+
+def tamanho_minimo_cluster(c_i_db, n):
+    c_i = 10 ** (c_i_db / 10)
+    rcc = pow(c_i * 6, (1 / n))
+    n_cp = int(math.ceil((rcc ** 2) / 3))
+    return n_cp
+
+
+def grafico_CI_NCP(n):
+    n_cp = [3, 4, 7, 12, 13, 19]
+    lista_c_i = []
+    for i in n_cp:
+        rcc = math.sqrt(3 * i)
+        c_i = (rcc ** n) / 6
+        c_i_db = 10 * math.log10(c_i)
+        lista_c_i.append(c_i_db)
+    plt.bar(n_cp, lista_c_i)
+    plt.xlabel('N_CP')
+    plt.ylabel('C/I [dB]')
+    plt.title('C/I vs N_CP')
+    plt.savefig('website/static/website/images/CIvsNCP.jpg')
+    plt.close()

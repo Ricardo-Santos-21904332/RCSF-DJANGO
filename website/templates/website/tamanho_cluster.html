@@ -1,0 +1,22 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Tamanho mínimo do Cluster</h2>
+
+        <form action=" {% url 'website:tamanho_cluster' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        {% if submetido %}
+            <p>Para um C/I de {{ form.data.c_i_db }} dB e um coeficiente de atenuação (n) de {{ form.data.n }} o tamanho
+                do cluster mínimo (Ncp) é de {{ result }}.</p>
+        {% endif %}
+
+    </div>
+{% endblock main %}

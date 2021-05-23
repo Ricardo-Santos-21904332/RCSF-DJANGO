@@ -23,3 +23,12 @@ class FormOkumuraHata(forms.Form):
 class FormWalfischIkegami(forms.Form):
     frequencia = forms.IntegerField(label="Frequência [MHz]")
     distancia = forms.FloatField(label="Distância [Km]")
+
+
+class FormTamanhoCluster(forms.Form):
+    c_i_db = forms.FloatField(label="C/I [dB]")
+    n = forms.FloatField(label="Coeficiente de Atenuação (n)")
+
+
+class FormGraficoCINcp(forms.Form):
+    n = forms.FloatField(label="Coeficiente de Atenuação (n)")

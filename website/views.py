@@ -4,8 +4,12 @@ from . import functions
 from .forms import FormEspacoLivre
 from .forms import FormOkumuraHata
 from .forms import FormWalfischIkegami
+from .forms import FormTamanhoCluster
+from .forms import FormGraficoCINcp
 from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
+from .functions import tamanho_minimo_cluster
+from .functions import grafico_CI_NCP
 
 
 # Create your views here.
@@ -88,4 +92,36 @@ def walfisch_ikegami(request):
 
     context = {'form': form, 'submetido': submetido, 'result': result}
 
-    return render(request, "website/walfisch-ikegami.html", context)
+    return render(request, "website/walfisch_ikegami.html", context)
+
+
+def tamanho_cluster(request):
+    submetido = False
+    result = 0
+    form = FormTamanhoCluster(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        result = tamanho_minimo_cluster(
+            form.cleaned_data['c_i_db'],
+            form.cleaned_data['n']
+        )
+
+    context = {'form': form, 'submetido': submetido, 'result': result}
+
+    return render(request, "website/tamanho_cluster.html", context)
+
+
+def grafico_CI_Ncp(request):
+    submetido = False
+    form = FormGraficoCINcp(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        grafico_CI_NCP(
+            form.cleaned_data['n']
+        )
+
+    context = {'form': form, 'submetido': submetido}
+
+    return render(request, "website/graficoCINCP.html", context)

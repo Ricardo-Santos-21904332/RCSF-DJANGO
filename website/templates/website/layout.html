@@ -56,7 +56,7 @@
                     <a class="dropdown-item" href=" {% url 'website:espaco_livre' %}">Gráfico Espaço Livre</a>
                     <a class="dropdown-item" href="#">Heatmap Espaço Livre</a>
                     <a class="dropdown-item" href=" {% url 'website:okumura_hata' %} ">Okumura Hata</a>
-                    <a class="dropdown-item" href=" {% url 'website:walfisch-ikegami' %} ">Walfish Ikegami</a>
+                    <a class="dropdown-item" href=" {% url 'website:walfisch_ikegami' %} ">Walfish Ikegami</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -65,6 +65,14 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown03">
                     <a class="dropdown-item" href="#">Diagramas</a>
                     <a class="dropdown-item" href="#">Heatmap</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Interferência</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href=" {% url 'website:tamanho_cluster' %} ">Tamanho mínimo do cluster</a>
+                    <a class="dropdown-item" href=" {% url 'website:grafico_CI_Ncp' %}">Gráfico C/I vs Ncp</a>
                 </div>
             </li>
             <li class="nav-item">
