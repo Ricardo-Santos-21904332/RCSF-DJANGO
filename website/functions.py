@@ -209,15 +209,13 @@ def cria_planeamento_hexagonal(n_pixels_x, n_pixels_y, R: 'raio em pixels', ptx,
     }
 
     nome_ficheiro = f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
-    with open('website/static/website/images/' + nome_ficheiro, 'w') as f:
-        json.dump(config, f, indent=4)
+    json.dump(config, open('website/static/website/images/' + nome_ficheiro, 'w'), indent=4)
 
     return f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
 
 
 def cria_mapas_celulas(ficheiro):
-    with open('website/static/website/images/' + ficheiro) as fp:
-        config = json.load(fp)
+    config = json.load(open('website/static/website/images/' + ficheiro))
 
     mapa = cria_mapa_prx_dB_de_celulas(config)
 
