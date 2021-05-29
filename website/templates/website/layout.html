@@ -69,8 +69,15 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Interferência</a>
+                   aria-expanded="false">Planeamento Celular</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
+                    <a class="dropdown-item" href=" {% url 'website:grafico_Planeamento' %} ">Gráficos Planeamento Celular</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Interferência</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
                     <a class="dropdown-item" href=" {% url 'website:tamanho_cluster' %} ">Tamanho mínimo do cluster</a>
                     <a class="dropdown-item" href=" {% url 'website:grafico_CI_Ncp' %}">Gráfico C/I vs Ncp</a>
                 </div>

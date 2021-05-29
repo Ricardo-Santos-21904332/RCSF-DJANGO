@@ -6,10 +6,14 @@ from .forms import FormOkumuraHata
 from .forms import FormWalfischIkegami
 from .forms import FormTamanhoCluster
 from .forms import FormGraficoCINcp
+from .forms import FormGraficoPlaneamento
 from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
 from .functions import tamanho_minimo_cluster
 from .functions import grafico_CI_NCP
+from .functions import cria_planeamento_hexagonal
+from .functions import cria_mapas_celulas
+import os
 
 
 # Create your views here.
@@ -125,3 +129,24 @@ def grafico_CI_Ncp(request):
     context = {'form': form, 'submetido': submetido}
 
     return render(request, "website/graficoCINCP.html", context)
+
+
+def grafico_Planeamento(request):
+    submetido = False
+    form = FormGraficoPlaneamento(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        ficheiro = cria_planeamento_hexagonal(
+            form.cleaned_data['n_pixels_x'],
+            form.cleaned_data['n_pixels_y'],
+            form.cleaned_data['raio'],
+            form.cleaned_data['ptx'],
+            form.cleaned_data['frequencia'],
+            form.cleaned_data['pixel_size']
+        )
+        cria_mapas_celulas(ficheiro)
+
+    context = {'form': form, 'submetido': submetido}
+
+    return render(request, "website/graficos_planeamento.html", context)

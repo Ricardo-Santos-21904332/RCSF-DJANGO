@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0c1eb43-594d-43fd-94eb-227a0b845eff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/templates/website/graficoCINCP.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/templates/website/tamanho_cluster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/templates/website/graficos_planeamento.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/plot_atenuacao_1800_MHz_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/plot_atenuacao_1800_MHz_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/plot_atenuacao_900_MHz_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/plot_atenuacao_900_MHz_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/plot_propagacao_1800_MHz_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/plot_propagacao_1800_MHz_.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/plot_propagacao_900_MHz_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/plot_propagacao_900_MHz_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/walfisch-ikegami.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/walfisch_ikegami.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
@@ -80,7 +75,12 @@
       <workItem from="1621107501366" duration="276000" />
       <workItem from="1621109022485" duration="419000" />
       <workItem from="1621694387560" duration="1862000" />
-      <workItem from="1621766761860" duration="2138000" />
+      <workItem from="1621766761860" duration="2280000" />
+      <workItem from="1621865635258" duration="8000" />
+      <workItem from="1621967877284" duration="69000" />
+      <workItem from="1622022540462" duration="128000" />
+      <workItem from="1622023684188" duration="3225000" />
+      <workItem from="1622299138371" duration="3399000" />
     </task>
     <servers />
   </component>

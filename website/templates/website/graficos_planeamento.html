@@ -1,0 +1,24 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Gráficos Planeamento Celular</h2>
+
+        <form action=" {% url 'website:grafico_Planeamento' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+
+        {% if submetido %}
+            {% load static %}
+            <img src=" {% static "website/planeamento/best_server.png" %}" alt="" width="100%">
+            <img src=" {% static "website/planeamento/cir.png" %}" alt="" width="100%">
+        {% endif %}
+
+    </div>
+{% endblock main %}

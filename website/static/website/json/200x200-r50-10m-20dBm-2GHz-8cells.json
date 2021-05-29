@@ -1,0 +1,71 @@
+{
+    "celulas": {
+        "0": {
+            "posicao": [
+                0,
+                0
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "1": {
+            "posicao": [
+                0,
+                86
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "2": {
+            "posicao": [
+                0,
+                172
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "3": {
+            "posicao": [
+                150,
+                0
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "4": {
+            "posicao": [
+                150,
+                86
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "5": {
+            "posicao": [
+                150,
+                172
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "6": {
+            "posicao": [
+                75,
+                43
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        },
+        "7": {
+            "posicao": [
+                75,
+                129
+            ],
+            "ptx": 20,
+            "frequencia": 2
+        }
+    },
+    "n_pixels_x": 200,
+    "n_pixels_y": 200,
+    "pixel_size": 10
+}

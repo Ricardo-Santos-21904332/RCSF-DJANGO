@@ -32,3 +32,15 @@ class FormTamanhoCluster(forms.Form):
 
 class FormGraficoCINcp(forms.Form):
     n = forms.FloatField(label="Coeficiente de Atenuação (n)")
+
+
+class FormGraficoPlaneamento(forms.Form):
+    n_pixels_x = forms.IntegerField(label="Número de pixels (eixo X)")
+    n_pixels_y = forms.IntegerField(label="Número de pixels (eixo Y)")
+    raio = forms.IntegerField(label="Raio em pixels")
+    ptx = forms.IntegerField(label="Potência transmitida")
+    frequencia = forms.FloatField(label="Frequência [GHz]")
+    pixel_size = forms.IntegerField(label="Tamanho do pixel")
+
+
+

@@ -14,4 +14,5 @@ urlpatterns = [
     path('walfisch_ikegami/', views.walfisch_ikegami, name='walfisch_ikegami'),
     path('tamanho_cluster/', views.tamanho_cluster, name='tamanho_cluster'),
     path('grafico_CI_Ncp/', views.grafico_CI_Ncp, name='grafico_CI_Ncp'),
+    path('grafico_Planeamento/', views.grafico_Planeamento, name='grafico_Planeamento'),
 ]

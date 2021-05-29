@@ -3,6 +3,11 @@ from math import log10
 from math import log
 import matplotlib.pyplot as plt
 import matplotlib
+import os
+import json
+import seaborn as sns
+
+sns.set()
 
 matplotlib.use('agg')
 
@@ -154,3 +159,191 @@ def grafico_CI_NCP(n):
     plt.title('C/I vs N_CP')
     plt.savefig('website/static/website/images/CIvsNCP.jpg')
     plt.close()
+
+
+def cria_planeamento_hexagonal(n_pixels_x, n_pixels_y, R: 'raio em pixels', ptx, frequencia: 'GHz', pixel_size):
+    """
+    Para uma grelha de pixels e um raio de célula, cria um planeamento hexagonal de células
+    retornando um JSON com coordenadas e configuração de cada célula
+
+    :param n_pixels_x: numero de pixels no eixo dos x
+    :param n_pixels_y: numero de pixels no eixo dos y
+    :param R: Radio em pixels da célula
+    :param ptx: potencia transmitida em dBm
+    :param frequencia: frequencia de transmissão em GHz
+    :param pixel_size: tamanho do pixel em metro
+
+    :return: JSON com coordenadas e configuração de cada célula
+    """
+
+    r = int(math.sqrt(3) / 2 * R)
+    celulas = {}
+    n_celulas = 0
+
+    x = 0
+    y = 0
+
+    while x <= n_pixels_x:
+        y = 0
+        while y <= n_pixels_y:
+            i = str(n_celulas)
+            celulas[i] = {'posicao': [x, y], 'ptx': ptx, 'frequencia': frequencia}
+            n_celulas += 1
+            y += 2 * r
+        x += 3 * R
+
+    x = 3 * R // 2
+    y = r
+
+    while x <= n_pixels_x:
+        y = r
+        while y <= n_pixels_y:
+            i = str(n_celulas)
+            celulas[i] = {'posicao': [x, y], 'ptx': ptx, 'frequencia': frequencia}
+            n_celulas += 1
+            y += 2 * r
+        x += 3 * R
+
+    config = {
+        'celulas': celulas,
+        'n_pixels_x': n_pixels_x,
+        'n_pixels_y': n_pixels_y,
+        'pixel_size': pixel_size,
+    }
+
+    nome_ficheiro = f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
+    with open(os.path.join('website/static/website/json/', nome_ficheiro), 'w') as f:
+        json.dump(config, f, indent=4)
+
+    return f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
+
+
+def cria_mapas_celulas(ficheiro):
+    with open(os.path.join('website/static/website/json/', ficheiro)) as fp:
+        config = json.load(fp)
+
+    mapa = cria_mapa_prx_dB_de_celulas(config)
+
+    if True:
+        mapa_best_server = cria_mapa_id_best_server(mapa, config)
+        desenha_mapa(mapa_best_server, ficheiro, 'best_server')
+
+    if True:
+        mapa_cir = cria_mapa_cir(mapa, config)
+        desenha_mapa(mapa_cir, ficheiro, 'cir')
+
+    #if True:
+    #   for celula in config['celulas'].keys():
+    #        mapa_celula = extrai_mapa(mapa, celula)
+    #        desenha_mapa(mapa_celula, ficheiro, celula)
+
+    return
+
+
+def cria_mapa_vazio(size_x, size_y):
+    return [[{} for _ in range(size_y)] for _ in range(size_x)]
+
+
+def calcula_distancia(c_x, c_y, x, y, pixel_size):
+    # cálculo da distancia entre dois pontos
+    # usando o teorema de Pitágoras e a dimensão do pixe
+
+    distancia = math.sqrt((c_x - x) ** 2 + (c_y - y) ** 2) * pixel_size
+
+    return distancia if distancia != 0 else pixel_size
+
+
+def free_space(f: "frequencia [GHz]", d: "distancia [m]") -> "atenuação [dB]":
+    """
+        esta função recebe:
+          - f:"frequencia [GHz]"
+          - d:"distancia [m]"
+        esta função retorna a atenuação de propagação em espaço livre [dB]
+    """
+    return 32.44 + 20 * math.log10(d / 1000) + 20 * math.log10(f * 1000)
+
+
+def cria_mapa_prx_dB_de_celulas(config):
+    """Cria mapa de potencia recebida em dB de um conjunto de celulas"""
+
+    mapa = cria_mapa_vazio(config['n_pixels_x'], config['n_pixels_y'])
+
+    for y in range(0, config['n_pixels_y']):
+        for x in range(0, config['n_pixels_x']):
+
+            for celula, info in config['celulas'].items():
+                c_x = info['posicao'][0]
+                c_y = info['posicao'][1]
+
+                distancia = calcula_distancia(c_x, c_y, x, y, config['pixel_size'])
+                path_loss = free_space(info['frequencia'], distancia)
+                prx = info['ptx'] - path_loss
+                mapa[x][y][celula] = prx
+
+    return mapa
+
+
+def cria_mapa_id_best_server(mapa, config):
+    mapa_cobertura = [[{} for _ in range(config['n_pixels_y'])] for _ in range(config['n_pixels_x'])]
+
+    cor = {}
+    for i, item in enumerate(list(config['celulas'])):
+        cor[item] = i
+
+    for y in range(0, config['n_pixels_y']):
+        for x in range(0, config['n_pixels_x']):
+            p = mapa[x][y]
+            celula = max(list(p.items()), key=lambda e: e[1])
+            mapa_cobertura[x][y] = cor[celula[0]]
+
+    return mapa_cobertura
+
+
+def cria_mapa_cir(mapa, config):
+    mapa_cir = [[None for _ in range(config['n_pixels_y'])] for _ in range(config['n_pixels_x'])]
+
+    for y in range(0, config['n_pixels_y']):
+        for x in range(0, config['n_pixels_x']):
+            mapa_cir[x][y] = cir(mapa[x][y])
+
+    return mapa_cir
+
+
+def cir(p):
+    """
+    calcula CIR de dicionario de prx[dBm] de celulas num ponto. considera C o melhor dos sinais.
+    """
+
+    lista_prx_dB_cells = list(p.values())
+    lista_prx_dB_cells.sort(reverse=True)
+
+    c_dB = lista_prx_dB_cells[0]  # best server signal strength
+    lista_prx_dB_i_cells = lista_prx_dB_cells[1:]  # remaining received power levels
+
+    soma_i_linear = 0
+    for prx_dB_i_cell in lista_prx_dB_i_cells:
+        soma_i_linear += 10 ** (prx_dB_i_cell / 10)  # soma linear de px das celulas interferences
+    soma_i_dB = 10 * log10(soma_i_linear)
+
+    cir_dB = c_dB - soma_i_dB
+
+    return cir_dB
+
+
+def extrai_mapa(mapa, celula):
+    mapa_celula = []
+    for linha in mapa:
+        linha_celula = []
+        for elemento in linha:
+            linha_celula.append(elemento[celula])
+        mapa_celula.append(linha_celula.copy())
+
+    return mapa_celula
+
+
+def desenha_mapa(mapa, nome, tipo):
+    plt.clf()
+    ax = sns.heatmap(mapa)
+    #f'{nome[:-5]}-{tipo}
+    caminho = os.path.join('website/static/website/planeamento', f'{tipo}.png')
+    plt.savefig(caminho)
