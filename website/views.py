@@ -13,7 +13,6 @@ from .functions import tamanho_minimo_cluster
 from .functions import grafico_CI_NCP
 from .functions import cria_planeamento_hexagonal
 from .functions import cria_mapas_celulas
-import os
 
 
 # Create your views here.

@@ -6,8 +6,6 @@ import matplotlib
 import json
 import seaborn as sns
 
-sns.set()
-
 matplotlib.use('agg')
 
 
@@ -211,14 +209,14 @@ def cria_planeamento_hexagonal(n_pixels_x, n_pixels_y, R: 'raio em pixels', ptx,
     }
 
     nome_ficheiro = f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
-    with open('website/static/website/images/'+ nome_ficheiro, 'w') as f:
+    with open('website/planeamento/' + nome_ficheiro, 'w') as f:
         json.dump(config, f, indent=4)
 
     return f'{n_pixels_x}x{n_pixels_y}-r{R}-{pixel_size}m-{ptx}dBm-{frequencia}GHz-{n_celulas}cells.json'
 
 
 def cria_mapas_celulas(ficheiro):
-    with open('website/static/website/images/'+ ficheiro) as fp:
+    with open('website/planeamento/' + ficheiro) as fp:
         config = json.load(fp)
 
     mapa = cria_mapa_prx_dB_de_celulas(config)
@@ -231,7 +229,7 @@ def cria_mapas_celulas(ficheiro):
         mapa_cir = cria_mapa_cir(mapa, config)
         desenha_mapa(mapa_cir, ficheiro, 'cir')
 
-    #if True:
+    # if True:
     #   for celula in config['celulas'].keys():
     #        mapa_celula = extrai_mapa(mapa, celula)
     #        desenha_mapa(mapa_celula, ficheiro, celula)
@@ -343,5 +341,5 @@ def extrai_mapa(mapa, celula):
 def desenha_mapa(mapa, nome, tipo):
     plt.clf()
     ax = sns.heatmap(mapa)
-    #f'{nome[:-5]}-{tipo}
-    plt.savefig('website/static/website/images/' + f'{tipo}.png')
+    # f'{nome[:-5]}-{tipo}
+    plt.savefig(f'website/static/website/images/{tipo}.png')
