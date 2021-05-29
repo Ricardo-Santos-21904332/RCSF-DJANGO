@@ -345,5 +345,4 @@ def desenha_mapa(mapa, nome, tipo):
     plt.clf()
     ax = sns.heatmap(mapa)
     #f'{nome[:-5]}-{tipo}
-    caminho = os.path.join('website/static/website/planeamento', f'{tipo}.png')
-    plt.savefig(caminho)
+    plt.savefig('website/static/website/images/' + f'{tipo}.png')
