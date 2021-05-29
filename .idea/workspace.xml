@@ -4,10 +4,6 @@
     <list default="true" id="a0c1eb43-594d-43fd-94eb-227a0b845eff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/json/200x200-r50-10m-20dBm-2GHz-8cells.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/json/400x400-r50-10m-20dBm-1.9GHz-30cells.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/json/400x400-r50-10m-20dBm-2GHz-30cells.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/json/400x400-r50-10m-43dBm-1.9GHz-30cells.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <workItem from="1621967877284" duration="69000" />
       <workItem from="1622022540462" duration="128000" />
       <workItem from="1622023684188" duration="3225000" />
-      <workItem from="1622299138371" duration="4134000" />
+      <workItem from="1622299138371" duration="4350000" />
     </task>
     <servers />
   </component>
