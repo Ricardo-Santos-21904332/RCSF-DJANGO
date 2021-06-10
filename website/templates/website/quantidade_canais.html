@@ -1,0 +1,22 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Quantidade De Canais</h2>
+
+        <form action=" {% url 'website:quantidade_canais' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        {% if submetido %}
+            <p>Para um Tráfego Oferecido de {{ form.data.t }} Erlang e uma probabilidade de bloqueio
+                de {{ form.data.pb }}, o número de canais é de {{ result }}.</p>
+        {% endif %}
+
+    </div>
+{% endblock main %}

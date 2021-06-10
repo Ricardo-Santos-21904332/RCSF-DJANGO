@@ -7,12 +7,18 @@ from .forms import FormWalfischIkegami
 from .forms import FormTamanhoCluster
 from .forms import FormGraficoCINcp
 from .forms import FormGraficoPlaneamento
+from .forms import FormProbabilidadeDeBloqueio
+from .forms import FormQuantidadeDeCanais
+from .forms import FormTrafegoOferecido
 from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
 from .functions import tamanho_minimo_cluster
 from .functions import grafico_CI_NCP
 from .functions import cria_planeamento_hexagonal
 from .functions import cria_mapas_celulas
+from .functions import calculaProbabilidadeDeBloqueio
+from .functions import calculaQuantidadeCanais
+from .functions import calculaTrafegoOferecido
 
 
 # Create your views here.
@@ -149,3 +155,58 @@ def grafico_Planeamento(request):
     context = {'form': form, 'submetido': submetido}
 
     return render(request, "website/graficos_planeamento.html", context)
+
+
+def Erlang_B(request):
+    return render(request, "website/erlangB.html")
+
+
+def probabilidade_bloqueio(request):
+    submetido = False
+    result = 0.0
+    form = FormProbabilidadeDeBloqueio(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        result = calculaProbabilidadeDeBloqueio(
+            form.cleaned_data['t'],
+            form.cleaned_data['n']
+        )
+
+    context = {'form': form, 'submetido': submetido, 'result': result}
+
+    return render(request, "website/probabilidade_bloqueio.html", context)
+
+
+def quantidade_canais(request):
+    submetido = False
+    result = 0.0
+    form = FormQuantidadeDeCanais(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        result = calculaQuantidadeCanais(
+            form.cleaned_data['pb'],
+            form.cleaned_data['t']
+        )
+
+    context = {'form': form, 'submetido': submetido, 'result': result}
+
+    return render(request, "website/quantidade_canais.html", context)
+
+
+def trafego_oferecido(request):
+    submetido = False
+    result = 0.0
+    form = FormTrafegoOferecido(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        result = calculaTrafegoOferecido(
+            form.cleaned_data['pb'],
+            form.cleaned_data['n']
+        )
+
+    context = {'form': form, 'submetido': submetido, 'result': result}
+
+    return render(request, "website/trafego_oferecido.html", context)

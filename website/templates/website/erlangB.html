@@ -1,0 +1,21 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-12">
+        <h2 style="background-color:lightgray;text-align:center">Modelo de Erlang-B</h2>
+        <p>O modelo de Erlang-B, permite calcular a probabilidade de bloqueio de uma rede com N canais e T Erlangs de
+            tráfego.</p>
+        <p>Abaixo encontra-se a fórmula do modelo Erlang-B:</p>
+    </div>
+    <div class="col-md-6">
+        {% load static %}
+        <img src=" {% static 'website/images/Erlang-B.jpg' %}" alt="" width="100%" height="95%">
+    </div>
+    <div class="col-md-12">
+        <p>Utilize as calculadoras disponíveis no site para calcular N, T e Pb:</p>
+        <p><a href=" {% url 'website:quantidade_canais' %}">Quantidade De Canais (N)</a></p>
+        <p><a href=" {% url 'website:trafego_oferecido' %}">Tráfego Oferecido (T)</a></p>
+        <p><a href=" {% url 'website:probabilidade_bloqueio' %} ">Probabilidade De
+            Bloqueio (Pb)</a></p>
+    </div>
+{% endblock main %}

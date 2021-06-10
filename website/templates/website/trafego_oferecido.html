@@ -1,0 +1,25 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Tráfego Oferecido</h2>
+
+        <form action=" {% url 'website:trafego_oferecido' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        {% if form.data.n == "1" and submetido %}
+            <p>Para {{ form.data.n }} canal e uma probabilidade de bloqueio de {{ form.data.pb }}, o tráfego oferecido
+                é de {{ result }} Erlang.</p>
+        {% elif submetido %}
+            <p>Para {{ form.data.n }} canais e uma probabilidade de bloqueio de {{ form.data.pb }}, o tráfego oferecido
+                é de {{ result }} Erlang.</p>
+        {% endif %}
+
+    </div>
+{% endblock main %}

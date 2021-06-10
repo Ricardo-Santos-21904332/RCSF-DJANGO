@@ -43,4 +43,16 @@ class FormGraficoPlaneamento(forms.Form):
     pixel_size = forms.IntegerField(label="Tamanho do pixel")
 
 
+class FormProbabilidadeDeBloqueio(forms.Form):
+    t = forms.IntegerField(label="Tráfego Oferecido (T)")
+    n = forms.IntegerField(label="Quantidade De Canais (N)")
 
+
+class FormQuantidadeDeCanais(forms.Form):
+    t = forms.IntegerField(label="Tráfego Oferecido (T)")
+    pb = forms.FloatField(label="Probabilidade De Bloqueio (Pb)")
+
+
+class FormTrafegoOferecido(forms.Form):
+    n = forms.IntegerField(label="Quantidade De Canais (N)")
+    pb = forms.FloatField(label="Probabilidade De Bloqueio (Pb)")

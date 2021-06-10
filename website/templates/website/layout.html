@@ -71,7 +71,8 @@
                 <a class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">Planeamento Celular</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href=" {% url 'website:grafico_Planeamento' %} ">Gráficos Planeamento Celular</a>
+                    <a class="dropdown-item" href=" {% url 'website:grafico_Planeamento' %} ">Gráficos Planeamento
+                        Celular</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -80,6 +81,17 @@
                 <div class="dropdown-menu" aria-labelledby="dropdown05">
                     <a class="dropdown-item" href=" {% url 'website:tamanho_cluster' %} ">Tamanho mínimo do cluster</a>
                     <a class="dropdown-item" href=" {% url 'website:grafico_CI_Ncp' %}">Gráfico C/I vs Ncp</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Tráfego</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown05">
+                    <a class="dropdown-item" href=" {% url 'website:Erlang_B' %}">Modelo de Erlang-B</a>
+                    <a class="dropdown-item" href=" {% url 'website:quantidade_canais' %}">Quantidade De Canais</a>
+                    <a class="dropdown-item" href=" {% url 'website:trafego_oferecido' %}">Tráfego Oferecido</a>
+                    <a class="dropdown-item" href=" {% url 'website:probabilidade_bloqueio' %} ">Probabilidade De
+                        Bloqueio</a>
                 </div>
             </li>
             <li class="nav-item">

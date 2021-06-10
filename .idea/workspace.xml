@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0c1eb43-594d-43fd-94eb-227a0b845eff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/website/static/website/images/400x400-r50-10m-20dBm-2.0GHz-30cells.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website/static/website/json/400x400-r50-10m-20dBm-2.0GHz-30cells.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/static/website/images/Erlang-B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/static/website/json/400x400-r50-10m-50dBm-2.0GHz-30cells.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/templates/website/erlangB.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/templates/website/probabilidade_bloqueio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/templates/website/quantidade_canais.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/website/templates/website/trafego_oferecido.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/best_server.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/best_server.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/cir.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/cir.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/templates/website/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +88,9 @@
       <workItem from="1621967877284" duration="69000" />
       <workItem from="1622022540462" duration="128000" />
       <workItem from="1622023684188" duration="3225000" />
-      <workItem from="1622299138371" duration="8235000" />
+      <workItem from="1622299138371" duration="8389000" />
+      <workItem from="1622626476191" duration="139000" />
+      <workItem from="1623336913083" duration="5152000" />
     </task>
     <servers />
   </component>

@@ -15,4 +15,8 @@ urlpatterns = [
     path('tamanho_cluster/', views.tamanho_cluster, name='tamanho_cluster'),
     path('grafico_CI_Ncp/', views.grafico_CI_Ncp, name='grafico_CI_Ncp'),
     path('grafico_Planeamento/', views.grafico_Planeamento, name='grafico_Planeamento'),
+    path('probabilidade_bloqueio/', views.probabilidade_bloqueio, name='probabilidade_bloqueio'),
+    path('quantidade_canais/', views.quantidade_canais, name='quantidade_canais'),
+    path('trafego_oferecido/', views.trafego_oferecido, name='trafego_oferecido'),
+    path('Erlang_B/', views.Erlang_B, name='Erlang_B'),
 ]

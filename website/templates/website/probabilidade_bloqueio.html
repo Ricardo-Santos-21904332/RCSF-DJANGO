@@ -1,0 +1,25 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Probabilidade De Bloqueio</h2>
+
+        <form action=" {% url 'website:probabilidade_bloqueio' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        {% if form.data.n == "1" and submetido %}
+            <p>Para um Tráfego Oferecido de {{ form.data.t }} Erlang e {{ form.data.n }} canal, a probabilidade de
+                bloqueio é de {{ result }}.</p>
+        {% elif submetido %}
+            <p>Para um Tráfego Oferecido de {{ form.data.t }} Erlang e {{ form.data.n }} canais, a probabilidade de
+                bloqueio é de {{ result }}.</p>
+        {% endif %}
+
+    </div>
+{% endblock main %}

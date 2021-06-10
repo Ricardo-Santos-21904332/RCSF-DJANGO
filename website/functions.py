@@ -232,7 +232,7 @@ def cria_mapas_celulas(ficheiro):
         mapa_cir = cria_mapa_cir(mapa, config)
         desenha_mapa(mapa_cir, ficheiro, 'cir')
 
-    #if True:
+    # if True:
     #   for celula in config['celulas'].keys():
     #        mapa_celula = extrai_mapa(mapa, celula)
     #        desenha_mapa(mapa_celula, ficheiro, celula)
@@ -344,5 +344,29 @@ def extrai_mapa(mapa, celula):
 def desenha_mapa(mapa, nome, tipo):
     plt.clf()
     ax = sns.heatmap(mapa)
-    #f'{nome[:-5]}-{tipo}
+    # f'{nome[:-5]}-{tipo}
     plt.savefig('website/static/website/images/' + f'{tipo}.png')
+
+
+def calculaProbabilidadeDeBloqueio(t, n):
+    pb = 1.0
+    for i in range(1, n + 1):
+        pb = 1.0 + pb * (i / t)
+
+    return 1.0 / pb
+
+
+def calculaQuantidadeCanais(pb, t):
+    for i in range(1, 100):
+        pb_procura = calculaProbabilidadeDeBloqueio(t, i)
+        if pb + 0.001 >= pb_procura >= pb - 0.01:
+            return i
+    return 0
+
+
+def calculaTrafegoOferecido(pb, n):
+    for i in range(1, 100):
+        pb_procura = calculaProbabilidadeDeBloqueio(i, n)
+        if pb + 0.001 >= pb_procura >= pb - 0.01:
+            return i
+    return 0
