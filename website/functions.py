@@ -352,7 +352,6 @@ def calculaProbabilidadeDeBloqueio(t, n):
     pb = 1.0
     for i in range(1, n + 1):
         pb = 1.0 + pb * (i / t)
-
     return 1.0 / pb
 
 
