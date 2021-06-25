@@ -79,7 +79,7 @@ def okumura_hata(request):
             form.cleaned_data['distancia'],
             form.cleaned_data['hbe'],
             form.cleaned_data['hm'],
-            form.cleaned_data['tipoCidade']
+            form.cleaned_data['tipoAmbiente']
         )
 
     context = {'form': form, 'submetido': submetido, 'result': result}

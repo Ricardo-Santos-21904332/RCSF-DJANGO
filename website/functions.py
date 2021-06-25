@@ -85,31 +85,31 @@ def propagacaoEspacoLivre(freq):
     plt.close()
 
 
-def hmu(hm, f, tipoCidade):
-    if tipoCidade == "pequena":
+def hmu(hm, f, tipoAmbiente):
+    if tipoAmbiente == "rural":
         return (1.10 * log(f) - 0.70) * hm - (1.56 * log(f) - 0.80)
-    elif tipoCidade == "media":
-        return 8.29 * (log(1.54 * hm) ** 2) - 1.10
-    elif tipoCidade == "grande":
+    elif tipoAmbiente == "suburbano":
+        return (1.10 * log(f) - 0.70) * hm - (1.56 * log(f) - 0.80)
+    elif tipoAmbiente == "urbano":
         return 3.20 * (log(11.75 * hm) ** 2) - 4.97
     else:
         return
 
 
-def okumura_hata(f, d, hbe, hm, tipoCidade):
+def okumura_hata(f, d, hbe, hm, tipoAmbiente):
     """
     Esta função recebe:
         -Frequência em MHz
         -Hbe em m
         -Distância em Km
         -Hm em metros
-        -tipoCidade (pequena, média ou grande)
+        -tipoAmbiente (pequena, média ou grande)
     E retorna a mediana da atenuação em dB
     """
 
     if 150 < f < 1500 and 1 < d < 20 and 30 < hbe < 200 and 1 < hm < 10:
         try:
-            Hmu = hmu(hm, f, tipoCidade)
+            Hmu = hmu(hm, f, tipoAmbiente)
             lp = 69.55 + 26.16 * log(f) - 13.82 * log(hbe) + (44.90 - 6.55 * log(hbe)) * log(d) - Hmu
             return "{:.2f}".format(lp)
         except:

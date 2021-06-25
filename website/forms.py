@@ -8,16 +8,16 @@ class FormEspacoLivre(forms.Form):
 
 
 class FormOkumuraHata(forms.Form):
-    cidades = (
-        ("pequena", "Pequena"),
-        ("media", "Média"),
-        ("grande", "Grande"),
+    ambientes = (
+        ("rural", "Rural"),
+        ("suburbano", "Suburbano"),
+        ("urbano", "Urbano"),
     )
     frequencia = forms.IntegerField(label="Frequência [MHz]")
     hbe = forms.IntegerField(label="Altura efectiva da estação base (Hbe) [m]")
     distancia = forms.IntegerField(label="Distância do móvel à base [Km]")
     hm = forms.IntegerField(label="Altura do móvel ao solo (Hm) [m]")
-    tipoCidade = forms.TypedChoiceField(label="Tipo de Cidade", choices=cidades)
+    tipoAmbiente = forms.TypedChoiceField(label="Tipo de Ambiente", choices=ambientes)
 
 
 class FormWalfischIkegami(forms.Form):
