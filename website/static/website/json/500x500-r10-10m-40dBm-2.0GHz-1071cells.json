@@ -1,0 +1,8575 @@
+{
+    "celulas": {
+        "0": {
+            "posicao": [
+                0,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1": {
+            "posicao": [
+                0,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "2": {
+            "posicao": [
+                0,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "3": {
+            "posicao": [
+                0,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "4": {
+            "posicao": [
+                0,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "5": {
+            "posicao": [
+                0,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "6": {
+            "posicao": [
+                0,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "7": {
+            "posicao": [
+                0,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "8": {
+            "posicao": [
+                0,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "9": {
+            "posicao": [
+                0,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "10": {
+            "posicao": [
+                0,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "11": {
+            "posicao": [
+                0,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "12": {
+            "posicao": [
+                0,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "13": {
+            "posicao": [
+                0,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "14": {
+            "posicao": [
+                0,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "15": {
+            "posicao": [
+                0,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "16": {
+            "posicao": [
+                0,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "17": {
+            "posicao": [
+                0,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "18": {
+            "posicao": [
+                0,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "19": {
+            "posicao": [
+                0,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "20": {
+            "posicao": [
+                0,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "21": {
+            "posicao": [
+                0,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "22": {
+            "posicao": [
+                0,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "23": {
+            "posicao": [
+                0,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "24": {
+            "posicao": [
+                0,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "25": {
+            "posicao": [
+                0,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "26": {
+            "posicao": [
+                0,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "27": {
+            "posicao": [
+                0,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "28": {
+            "posicao": [
+                0,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "29": {
+            "posicao": [
+                0,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "30": {
+            "posicao": [
+                0,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "31": {
+            "posicao": [
+                0,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "32": {
+            "posicao": [
+                30,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "33": {
+            "posicao": [
+                30,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "34": {
+            "posicao": [
+                30,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "35": {
+            "posicao": [
+                30,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "36": {
+            "posicao": [
+                30,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "37": {
+            "posicao": [
+                30,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "38": {
+            "posicao": [
+                30,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "39": {
+            "posicao": [
+                30,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "40": {
+            "posicao": [
+                30,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "41": {
+            "posicao": [
+                30,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "42": {
+            "posicao": [
+                30,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "43": {
+            "posicao": [
+                30,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "44": {
+            "posicao": [
+                30,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "45": {
+            "posicao": [
+                30,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "46": {
+            "posicao": [
+                30,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "47": {
+            "posicao": [
+                30,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "48": {
+            "posicao": [
+                30,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "49": {
+            "posicao": [
+                30,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "50": {
+            "posicao": [
+                30,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "51": {
+            "posicao": [
+                30,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "52": {
+            "posicao": [
+                30,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "53": {
+            "posicao": [
+                30,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "54": {
+            "posicao": [
+                30,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "55": {
+            "posicao": [
+                30,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "56": {
+            "posicao": [
+                30,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "57": {
+            "posicao": [
+                30,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "58": {
+            "posicao": [
+                30,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "59": {
+            "posicao": [
+                30,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "60": {
+            "posicao": [
+                30,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "61": {
+            "posicao": [
+                30,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "62": {
+            "posicao": [
+                30,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "63": {
+            "posicao": [
+                30,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "64": {
+            "posicao": [
+                60,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "65": {
+            "posicao": [
+                60,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "66": {
+            "posicao": [
+                60,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "67": {
+            "posicao": [
+                60,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "68": {
+            "posicao": [
+                60,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "69": {
+            "posicao": [
+                60,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "70": {
+            "posicao": [
+                60,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "71": {
+            "posicao": [
+                60,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "72": {
+            "posicao": [
+                60,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "73": {
+            "posicao": [
+                60,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "74": {
+            "posicao": [
+                60,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "75": {
+            "posicao": [
+                60,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "76": {
+            "posicao": [
+                60,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "77": {
+            "posicao": [
+                60,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "78": {
+            "posicao": [
+                60,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "79": {
+            "posicao": [
+                60,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "80": {
+            "posicao": [
+                60,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "81": {
+            "posicao": [
+                60,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "82": {
+            "posicao": [
+                60,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "83": {
+            "posicao": [
+                60,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "84": {
+            "posicao": [
+                60,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "85": {
+            "posicao": [
+                60,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "86": {
+            "posicao": [
+                60,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "87": {
+            "posicao": [
+                60,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "88": {
+            "posicao": [
+                60,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "89": {
+            "posicao": [
+                60,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "90": {
+            "posicao": [
+                60,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "91": {
+            "posicao": [
+                60,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "92": {
+            "posicao": [
+                60,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "93": {
+            "posicao": [
+                60,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "94": {
+            "posicao": [
+                60,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "95": {
+            "posicao": [
+                60,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "96": {
+            "posicao": [
+                90,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "97": {
+            "posicao": [
+                90,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "98": {
+            "posicao": [
+                90,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "99": {
+            "posicao": [
+                90,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "100": {
+            "posicao": [
+                90,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "101": {
+            "posicao": [
+                90,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "102": {
+            "posicao": [
+                90,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "103": {
+            "posicao": [
+                90,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "104": {
+            "posicao": [
+                90,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "105": {
+            "posicao": [
+                90,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "106": {
+            "posicao": [
+                90,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "107": {
+            "posicao": [
+                90,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "108": {
+            "posicao": [
+                90,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "109": {
+            "posicao": [
+                90,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "110": {
+            "posicao": [
+                90,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "111": {
+            "posicao": [
+                90,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "112": {
+            "posicao": [
+                90,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "113": {
+            "posicao": [
+                90,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "114": {
+            "posicao": [
+                90,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "115": {
+            "posicao": [
+                90,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "116": {
+            "posicao": [
+                90,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "117": {
+            "posicao": [
+                90,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "118": {
+            "posicao": [
+                90,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "119": {
+            "posicao": [
+                90,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "120": {
+            "posicao": [
+                90,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "121": {
+            "posicao": [
+                90,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "122": {
+            "posicao": [
+                90,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "123": {
+            "posicao": [
+                90,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "124": {
+            "posicao": [
+                90,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "125": {
+            "posicao": [
+                90,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "126": {
+            "posicao": [
+                90,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "127": {
+            "posicao": [
+                90,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "128": {
+            "posicao": [
+                120,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "129": {
+            "posicao": [
+                120,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "130": {
+            "posicao": [
+                120,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "131": {
+            "posicao": [
+                120,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "132": {
+            "posicao": [
+                120,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "133": {
+            "posicao": [
+                120,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "134": {
+            "posicao": [
+                120,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "135": {
+            "posicao": [
+                120,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "136": {
+            "posicao": [
+                120,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "137": {
+            "posicao": [
+                120,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "138": {
+            "posicao": [
+                120,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "139": {
+            "posicao": [
+                120,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "140": {
+            "posicao": [
+                120,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "141": {
+            "posicao": [
+                120,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "142": {
+            "posicao": [
+                120,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "143": {
+            "posicao": [
+                120,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "144": {
+            "posicao": [
+                120,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "145": {
+            "posicao": [
+                120,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "146": {
+            "posicao": [
+                120,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "147": {
+            "posicao": [
+                120,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "148": {
+            "posicao": [
+                120,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "149": {
+            "posicao": [
+                120,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "150": {
+            "posicao": [
+                120,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "151": {
+            "posicao": [
+                120,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "152": {
+            "posicao": [
+                120,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "153": {
+            "posicao": [
+                120,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "154": {
+            "posicao": [
+                120,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "155": {
+            "posicao": [
+                120,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "156": {
+            "posicao": [
+                120,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "157": {
+            "posicao": [
+                120,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "158": {
+            "posicao": [
+                120,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "159": {
+            "posicao": [
+                120,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "160": {
+            "posicao": [
+                150,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "161": {
+            "posicao": [
+                150,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "162": {
+            "posicao": [
+                150,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "163": {
+            "posicao": [
+                150,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "164": {
+            "posicao": [
+                150,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "165": {
+            "posicao": [
+                150,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "166": {
+            "posicao": [
+                150,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "167": {
+            "posicao": [
+                150,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "168": {
+            "posicao": [
+                150,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "169": {
+            "posicao": [
+                150,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "170": {
+            "posicao": [
+                150,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "171": {
+            "posicao": [
+                150,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "172": {
+            "posicao": [
+                150,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "173": {
+            "posicao": [
+                150,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "174": {
+            "posicao": [
+                150,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "175": {
+            "posicao": [
+                150,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "176": {
+            "posicao": [
+                150,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "177": {
+            "posicao": [
+                150,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "178": {
+            "posicao": [
+                150,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "179": {
+            "posicao": [
+                150,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "180": {
+            "posicao": [
+                150,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "181": {
+            "posicao": [
+                150,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "182": {
+            "posicao": [
+                150,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "183": {
+            "posicao": [
+                150,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "184": {
+            "posicao": [
+                150,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "185": {
+            "posicao": [
+                150,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "186": {
+            "posicao": [
+                150,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "187": {
+            "posicao": [
+                150,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "188": {
+            "posicao": [
+                150,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "189": {
+            "posicao": [
+                150,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "190": {
+            "posicao": [
+                150,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "191": {
+            "posicao": [
+                150,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "192": {
+            "posicao": [
+                180,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "193": {
+            "posicao": [
+                180,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "194": {
+            "posicao": [
+                180,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "195": {
+            "posicao": [
+                180,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "196": {
+            "posicao": [
+                180,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "197": {
+            "posicao": [
+                180,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "198": {
+            "posicao": [
+                180,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "199": {
+            "posicao": [
+                180,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "200": {
+            "posicao": [
+                180,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "201": {
+            "posicao": [
+                180,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "202": {
+            "posicao": [
+                180,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "203": {
+            "posicao": [
+                180,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "204": {
+            "posicao": [
+                180,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "205": {
+            "posicao": [
+                180,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "206": {
+            "posicao": [
+                180,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "207": {
+            "posicao": [
+                180,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "208": {
+            "posicao": [
+                180,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "209": {
+            "posicao": [
+                180,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "210": {
+            "posicao": [
+                180,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "211": {
+            "posicao": [
+                180,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "212": {
+            "posicao": [
+                180,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "213": {
+            "posicao": [
+                180,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "214": {
+            "posicao": [
+                180,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "215": {
+            "posicao": [
+                180,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "216": {
+            "posicao": [
+                180,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "217": {
+            "posicao": [
+                180,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "218": {
+            "posicao": [
+                180,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "219": {
+            "posicao": [
+                180,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "220": {
+            "posicao": [
+                180,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "221": {
+            "posicao": [
+                180,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "222": {
+            "posicao": [
+                180,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "223": {
+            "posicao": [
+                180,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "224": {
+            "posicao": [
+                210,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "225": {
+            "posicao": [
+                210,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "226": {
+            "posicao": [
+                210,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "227": {
+            "posicao": [
+                210,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "228": {
+            "posicao": [
+                210,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "229": {
+            "posicao": [
+                210,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "230": {
+            "posicao": [
+                210,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "231": {
+            "posicao": [
+                210,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "232": {
+            "posicao": [
+                210,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "233": {
+            "posicao": [
+                210,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "234": {
+            "posicao": [
+                210,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "235": {
+            "posicao": [
+                210,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "236": {
+            "posicao": [
+                210,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "237": {
+            "posicao": [
+                210,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "238": {
+            "posicao": [
+                210,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "239": {
+            "posicao": [
+                210,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "240": {
+            "posicao": [
+                210,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "241": {
+            "posicao": [
+                210,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "242": {
+            "posicao": [
+                210,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "243": {
+            "posicao": [
+                210,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "244": {
+            "posicao": [
+                210,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "245": {
+            "posicao": [
+                210,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "246": {
+            "posicao": [
+                210,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "247": {
+            "posicao": [
+                210,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "248": {
+            "posicao": [
+                210,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "249": {
+            "posicao": [
+                210,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "250": {
+            "posicao": [
+                210,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "251": {
+            "posicao": [
+                210,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "252": {
+            "posicao": [
+                210,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "253": {
+            "posicao": [
+                210,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "254": {
+            "posicao": [
+                210,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "255": {
+            "posicao": [
+                210,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "256": {
+            "posicao": [
+                240,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "257": {
+            "posicao": [
+                240,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "258": {
+            "posicao": [
+                240,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "259": {
+            "posicao": [
+                240,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "260": {
+            "posicao": [
+                240,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "261": {
+            "posicao": [
+                240,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "262": {
+            "posicao": [
+                240,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "263": {
+            "posicao": [
+                240,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "264": {
+            "posicao": [
+                240,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "265": {
+            "posicao": [
+                240,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "266": {
+            "posicao": [
+                240,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "267": {
+            "posicao": [
+                240,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "268": {
+            "posicao": [
+                240,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "269": {
+            "posicao": [
+                240,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "270": {
+            "posicao": [
+                240,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "271": {
+            "posicao": [
+                240,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "272": {
+            "posicao": [
+                240,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "273": {
+            "posicao": [
+                240,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "274": {
+            "posicao": [
+                240,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "275": {
+            "posicao": [
+                240,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "276": {
+            "posicao": [
+                240,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "277": {
+            "posicao": [
+                240,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "278": {
+            "posicao": [
+                240,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "279": {
+            "posicao": [
+                240,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "280": {
+            "posicao": [
+                240,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "281": {
+            "posicao": [
+                240,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "282": {
+            "posicao": [
+                240,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "283": {
+            "posicao": [
+                240,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "284": {
+            "posicao": [
+                240,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "285": {
+            "posicao": [
+                240,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "286": {
+            "posicao": [
+                240,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "287": {
+            "posicao": [
+                240,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "288": {
+            "posicao": [
+                270,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "289": {
+            "posicao": [
+                270,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "290": {
+            "posicao": [
+                270,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "291": {
+            "posicao": [
+                270,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "292": {
+            "posicao": [
+                270,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "293": {
+            "posicao": [
+                270,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "294": {
+            "posicao": [
+                270,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "295": {
+            "posicao": [
+                270,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "296": {
+            "posicao": [
+                270,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "297": {
+            "posicao": [
+                270,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "298": {
+            "posicao": [
+                270,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "299": {
+            "posicao": [
+                270,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "300": {
+            "posicao": [
+                270,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "301": {
+            "posicao": [
+                270,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "302": {
+            "posicao": [
+                270,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "303": {
+            "posicao": [
+                270,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "304": {
+            "posicao": [
+                270,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "305": {
+            "posicao": [
+                270,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "306": {
+            "posicao": [
+                270,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "307": {
+            "posicao": [
+                270,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "308": {
+            "posicao": [
+                270,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "309": {
+            "posicao": [
+                270,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "310": {
+            "posicao": [
+                270,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "311": {
+            "posicao": [
+                270,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "312": {
+            "posicao": [
+                270,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "313": {
+            "posicao": [
+                270,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "314": {
+            "posicao": [
+                270,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "315": {
+            "posicao": [
+                270,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "316": {
+            "posicao": [
+                270,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "317": {
+            "posicao": [
+                270,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "318": {
+            "posicao": [
+                270,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "319": {
+            "posicao": [
+                270,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "320": {
+            "posicao": [
+                300,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "321": {
+            "posicao": [
+                300,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "322": {
+            "posicao": [
+                300,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "323": {
+            "posicao": [
+                300,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "324": {
+            "posicao": [
+                300,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "325": {
+            "posicao": [
+                300,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "326": {
+            "posicao": [
+                300,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "327": {
+            "posicao": [
+                300,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "328": {
+            "posicao": [
+                300,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "329": {
+            "posicao": [
+                300,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "330": {
+            "posicao": [
+                300,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "331": {
+            "posicao": [
+                300,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "332": {
+            "posicao": [
+                300,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "333": {
+            "posicao": [
+                300,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "334": {
+            "posicao": [
+                300,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "335": {
+            "posicao": [
+                300,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "336": {
+            "posicao": [
+                300,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "337": {
+            "posicao": [
+                300,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "338": {
+            "posicao": [
+                300,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "339": {
+            "posicao": [
+                300,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "340": {
+            "posicao": [
+                300,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "341": {
+            "posicao": [
+                300,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "342": {
+            "posicao": [
+                300,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "343": {
+            "posicao": [
+                300,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "344": {
+            "posicao": [
+                300,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "345": {
+            "posicao": [
+                300,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "346": {
+            "posicao": [
+                300,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "347": {
+            "posicao": [
+                300,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "348": {
+            "posicao": [
+                300,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "349": {
+            "posicao": [
+                300,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "350": {
+            "posicao": [
+                300,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "351": {
+            "posicao": [
+                300,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "352": {
+            "posicao": [
+                330,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "353": {
+            "posicao": [
+                330,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "354": {
+            "posicao": [
+                330,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "355": {
+            "posicao": [
+                330,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "356": {
+            "posicao": [
+                330,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "357": {
+            "posicao": [
+                330,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "358": {
+            "posicao": [
+                330,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "359": {
+            "posicao": [
+                330,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "360": {
+            "posicao": [
+                330,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "361": {
+            "posicao": [
+                330,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "362": {
+            "posicao": [
+                330,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "363": {
+            "posicao": [
+                330,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "364": {
+            "posicao": [
+                330,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "365": {
+            "posicao": [
+                330,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "366": {
+            "posicao": [
+                330,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "367": {
+            "posicao": [
+                330,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "368": {
+            "posicao": [
+                330,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "369": {
+            "posicao": [
+                330,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "370": {
+            "posicao": [
+                330,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "371": {
+            "posicao": [
+                330,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "372": {
+            "posicao": [
+                330,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "373": {
+            "posicao": [
+                330,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "374": {
+            "posicao": [
+                330,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "375": {
+            "posicao": [
+                330,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "376": {
+            "posicao": [
+                330,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "377": {
+            "posicao": [
+                330,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "378": {
+            "posicao": [
+                330,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "379": {
+            "posicao": [
+                330,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "380": {
+            "posicao": [
+                330,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "381": {
+            "posicao": [
+                330,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "382": {
+            "posicao": [
+                330,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "383": {
+            "posicao": [
+                330,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "384": {
+            "posicao": [
+                360,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "385": {
+            "posicao": [
+                360,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "386": {
+            "posicao": [
+                360,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "387": {
+            "posicao": [
+                360,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "388": {
+            "posicao": [
+                360,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "389": {
+            "posicao": [
+                360,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "390": {
+            "posicao": [
+                360,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "391": {
+            "posicao": [
+                360,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "392": {
+            "posicao": [
+                360,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "393": {
+            "posicao": [
+                360,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "394": {
+            "posicao": [
+                360,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "395": {
+            "posicao": [
+                360,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "396": {
+            "posicao": [
+                360,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "397": {
+            "posicao": [
+                360,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "398": {
+            "posicao": [
+                360,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "399": {
+            "posicao": [
+                360,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "400": {
+            "posicao": [
+                360,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "401": {
+            "posicao": [
+                360,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "402": {
+            "posicao": [
+                360,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "403": {
+            "posicao": [
+                360,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "404": {
+            "posicao": [
+                360,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "405": {
+            "posicao": [
+                360,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "406": {
+            "posicao": [
+                360,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "407": {
+            "posicao": [
+                360,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "408": {
+            "posicao": [
+                360,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "409": {
+            "posicao": [
+                360,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "410": {
+            "posicao": [
+                360,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "411": {
+            "posicao": [
+                360,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "412": {
+            "posicao": [
+                360,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "413": {
+            "posicao": [
+                360,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "414": {
+            "posicao": [
+                360,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "415": {
+            "posicao": [
+                360,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "416": {
+            "posicao": [
+                390,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "417": {
+            "posicao": [
+                390,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "418": {
+            "posicao": [
+                390,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "419": {
+            "posicao": [
+                390,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "420": {
+            "posicao": [
+                390,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "421": {
+            "posicao": [
+                390,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "422": {
+            "posicao": [
+                390,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "423": {
+            "posicao": [
+                390,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "424": {
+            "posicao": [
+                390,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "425": {
+            "posicao": [
+                390,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "426": {
+            "posicao": [
+                390,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "427": {
+            "posicao": [
+                390,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "428": {
+            "posicao": [
+                390,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "429": {
+            "posicao": [
+                390,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "430": {
+            "posicao": [
+                390,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "431": {
+            "posicao": [
+                390,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "432": {
+            "posicao": [
+                390,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "433": {
+            "posicao": [
+                390,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "434": {
+            "posicao": [
+                390,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "435": {
+            "posicao": [
+                390,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "436": {
+            "posicao": [
+                390,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "437": {
+            "posicao": [
+                390,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "438": {
+            "posicao": [
+                390,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "439": {
+            "posicao": [
+                390,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "440": {
+            "posicao": [
+                390,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "441": {
+            "posicao": [
+                390,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "442": {
+            "posicao": [
+                390,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "443": {
+            "posicao": [
+                390,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "444": {
+            "posicao": [
+                390,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "445": {
+            "posicao": [
+                390,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "446": {
+            "posicao": [
+                390,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "447": {
+            "posicao": [
+                390,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "448": {
+            "posicao": [
+                420,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "449": {
+            "posicao": [
+                420,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "450": {
+            "posicao": [
+                420,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "451": {
+            "posicao": [
+                420,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "452": {
+            "posicao": [
+                420,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "453": {
+            "posicao": [
+                420,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "454": {
+            "posicao": [
+                420,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "455": {
+            "posicao": [
+                420,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "456": {
+            "posicao": [
+                420,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "457": {
+            "posicao": [
+                420,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "458": {
+            "posicao": [
+                420,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "459": {
+            "posicao": [
+                420,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "460": {
+            "posicao": [
+                420,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "461": {
+            "posicao": [
+                420,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "462": {
+            "posicao": [
+                420,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "463": {
+            "posicao": [
+                420,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "464": {
+            "posicao": [
+                420,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "465": {
+            "posicao": [
+                420,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "466": {
+            "posicao": [
+                420,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "467": {
+            "posicao": [
+                420,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "468": {
+            "posicao": [
+                420,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "469": {
+            "posicao": [
+                420,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "470": {
+            "posicao": [
+                420,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "471": {
+            "posicao": [
+                420,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "472": {
+            "posicao": [
+                420,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "473": {
+            "posicao": [
+                420,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "474": {
+            "posicao": [
+                420,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "475": {
+            "posicao": [
+                420,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "476": {
+            "posicao": [
+                420,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "477": {
+            "posicao": [
+                420,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "478": {
+            "posicao": [
+                420,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "479": {
+            "posicao": [
+                420,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "480": {
+            "posicao": [
+                450,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "481": {
+            "posicao": [
+                450,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "482": {
+            "posicao": [
+                450,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "483": {
+            "posicao": [
+                450,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "484": {
+            "posicao": [
+                450,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "485": {
+            "posicao": [
+                450,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "486": {
+            "posicao": [
+                450,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "487": {
+            "posicao": [
+                450,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "488": {
+            "posicao": [
+                450,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "489": {
+            "posicao": [
+                450,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "490": {
+            "posicao": [
+                450,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "491": {
+            "posicao": [
+                450,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "492": {
+            "posicao": [
+                450,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "493": {
+            "posicao": [
+                450,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "494": {
+            "posicao": [
+                450,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "495": {
+            "posicao": [
+                450,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "496": {
+            "posicao": [
+                450,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "497": {
+            "posicao": [
+                450,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "498": {
+            "posicao": [
+                450,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "499": {
+            "posicao": [
+                450,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "500": {
+            "posicao": [
+                450,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "501": {
+            "posicao": [
+                450,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "502": {
+            "posicao": [
+                450,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "503": {
+            "posicao": [
+                450,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "504": {
+            "posicao": [
+                450,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "505": {
+            "posicao": [
+                450,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "506": {
+            "posicao": [
+                450,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "507": {
+            "posicao": [
+                450,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "508": {
+            "posicao": [
+                450,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "509": {
+            "posicao": [
+                450,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "510": {
+            "posicao": [
+                450,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "511": {
+            "posicao": [
+                450,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "512": {
+            "posicao": [
+                480,
+                0
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "513": {
+            "posicao": [
+                480,
+                16
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "514": {
+            "posicao": [
+                480,
+                32
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "515": {
+            "posicao": [
+                480,
+                48
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "516": {
+            "posicao": [
+                480,
+                64
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "517": {
+            "posicao": [
+                480,
+                80
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "518": {
+            "posicao": [
+                480,
+                96
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "519": {
+            "posicao": [
+                480,
+                112
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "520": {
+            "posicao": [
+                480,
+                128
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "521": {
+            "posicao": [
+                480,
+                144
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "522": {
+            "posicao": [
+                480,
+                160
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "523": {
+            "posicao": [
+                480,
+                176
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "524": {
+            "posicao": [
+                480,
+                192
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "525": {
+            "posicao": [
+                480,
+                208
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "526": {
+            "posicao": [
+                480,
+                224
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "527": {
+            "posicao": [
+                480,
+                240
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "528": {
+            "posicao": [
+                480,
+                256
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "529": {
+            "posicao": [
+                480,
+                272
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "530": {
+            "posicao": [
+                480,
+                288
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "531": {
+            "posicao": [
+                480,
+                304
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "532": {
+            "posicao": [
+                480,
+                320
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "533": {
+            "posicao": [
+                480,
+                336
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "534": {
+            "posicao": [
+                480,
+                352
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "535": {
+            "posicao": [
+                480,
+                368
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "536": {
+            "posicao": [
+                480,
+                384
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "537": {
+            "posicao": [
+                480,
+                400
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "538": {
+            "posicao": [
+                480,
+                416
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "539": {
+            "posicao": [
+                480,
+                432
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "540": {
+            "posicao": [
+                480,
+                448
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "541": {
+            "posicao": [
+                480,
+                464
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "542": {
+            "posicao": [
+                480,
+                480
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "543": {
+            "posicao": [
+                480,
+                496
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "544": {
+            "posicao": [
+                15,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "545": {
+            "posicao": [
+                15,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "546": {
+            "posicao": [
+                15,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "547": {
+            "posicao": [
+                15,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "548": {
+            "posicao": [
+                15,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "549": {
+            "posicao": [
+                15,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "550": {
+            "posicao": [
+                15,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "551": {
+            "posicao": [
+                15,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "552": {
+            "posicao": [
+                15,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "553": {
+            "posicao": [
+                15,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "554": {
+            "posicao": [
+                15,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "555": {
+            "posicao": [
+                15,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "556": {
+            "posicao": [
+                15,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "557": {
+            "posicao": [
+                15,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "558": {
+            "posicao": [
+                15,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "559": {
+            "posicao": [
+                15,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "560": {
+            "posicao": [
+                15,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "561": {
+            "posicao": [
+                15,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "562": {
+            "posicao": [
+                15,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "563": {
+            "posicao": [
+                15,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "564": {
+            "posicao": [
+                15,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "565": {
+            "posicao": [
+                15,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "566": {
+            "posicao": [
+                15,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "567": {
+            "posicao": [
+                15,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "568": {
+            "posicao": [
+                15,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "569": {
+            "posicao": [
+                15,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "570": {
+            "posicao": [
+                15,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "571": {
+            "posicao": [
+                15,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "572": {
+            "posicao": [
+                15,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "573": {
+            "posicao": [
+                15,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "574": {
+            "posicao": [
+                15,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "575": {
+            "posicao": [
+                45,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "576": {
+            "posicao": [
+                45,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "577": {
+            "posicao": [
+                45,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "578": {
+            "posicao": [
+                45,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "579": {
+            "posicao": [
+                45,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "580": {
+            "posicao": [
+                45,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "581": {
+            "posicao": [
+                45,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "582": {
+            "posicao": [
+                45,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "583": {
+            "posicao": [
+                45,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "584": {
+            "posicao": [
+                45,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "585": {
+            "posicao": [
+                45,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "586": {
+            "posicao": [
+                45,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "587": {
+            "posicao": [
+                45,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "588": {
+            "posicao": [
+                45,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "589": {
+            "posicao": [
+                45,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "590": {
+            "posicao": [
+                45,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "591": {
+            "posicao": [
+                45,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "592": {
+            "posicao": [
+                45,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "593": {
+            "posicao": [
+                45,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "594": {
+            "posicao": [
+                45,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "595": {
+            "posicao": [
+                45,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "596": {
+            "posicao": [
+                45,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "597": {
+            "posicao": [
+                45,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "598": {
+            "posicao": [
+                45,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "599": {
+            "posicao": [
+                45,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "600": {
+            "posicao": [
+                45,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "601": {
+            "posicao": [
+                45,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "602": {
+            "posicao": [
+                45,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "603": {
+            "posicao": [
+                45,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "604": {
+            "posicao": [
+                45,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "605": {
+            "posicao": [
+                45,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "606": {
+            "posicao": [
+                75,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "607": {
+            "posicao": [
+                75,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "608": {
+            "posicao": [
+                75,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "609": {
+            "posicao": [
+                75,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "610": {
+            "posicao": [
+                75,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "611": {
+            "posicao": [
+                75,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "612": {
+            "posicao": [
+                75,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "613": {
+            "posicao": [
+                75,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "614": {
+            "posicao": [
+                75,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "615": {
+            "posicao": [
+                75,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "616": {
+            "posicao": [
+                75,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "617": {
+            "posicao": [
+                75,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "618": {
+            "posicao": [
+                75,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "619": {
+            "posicao": [
+                75,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "620": {
+            "posicao": [
+                75,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "621": {
+            "posicao": [
+                75,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "622": {
+            "posicao": [
+                75,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "623": {
+            "posicao": [
+                75,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "624": {
+            "posicao": [
+                75,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "625": {
+            "posicao": [
+                75,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "626": {
+            "posicao": [
+                75,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "627": {
+            "posicao": [
+                75,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "628": {
+            "posicao": [
+                75,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "629": {
+            "posicao": [
+                75,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "630": {
+            "posicao": [
+                75,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "631": {
+            "posicao": [
+                75,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "632": {
+            "posicao": [
+                75,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "633": {
+            "posicao": [
+                75,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "634": {
+            "posicao": [
+                75,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "635": {
+            "posicao": [
+                75,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "636": {
+            "posicao": [
+                75,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "637": {
+            "posicao": [
+                105,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "638": {
+            "posicao": [
+                105,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "639": {
+            "posicao": [
+                105,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "640": {
+            "posicao": [
+                105,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "641": {
+            "posicao": [
+                105,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "642": {
+            "posicao": [
+                105,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "643": {
+            "posicao": [
+                105,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "644": {
+            "posicao": [
+                105,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "645": {
+            "posicao": [
+                105,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "646": {
+            "posicao": [
+                105,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "647": {
+            "posicao": [
+                105,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "648": {
+            "posicao": [
+                105,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "649": {
+            "posicao": [
+                105,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "650": {
+            "posicao": [
+                105,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "651": {
+            "posicao": [
+                105,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "652": {
+            "posicao": [
+                105,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "653": {
+            "posicao": [
+                105,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "654": {
+            "posicao": [
+                105,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "655": {
+            "posicao": [
+                105,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "656": {
+            "posicao": [
+                105,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "657": {
+            "posicao": [
+                105,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "658": {
+            "posicao": [
+                105,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "659": {
+            "posicao": [
+                105,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "660": {
+            "posicao": [
+                105,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "661": {
+            "posicao": [
+                105,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "662": {
+            "posicao": [
+                105,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "663": {
+            "posicao": [
+                105,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "664": {
+            "posicao": [
+                105,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "665": {
+            "posicao": [
+                105,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "666": {
+            "posicao": [
+                105,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "667": {
+            "posicao": [
+                105,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "668": {
+            "posicao": [
+                135,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "669": {
+            "posicao": [
+                135,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "670": {
+            "posicao": [
+                135,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "671": {
+            "posicao": [
+                135,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "672": {
+            "posicao": [
+                135,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "673": {
+            "posicao": [
+                135,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "674": {
+            "posicao": [
+                135,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "675": {
+            "posicao": [
+                135,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "676": {
+            "posicao": [
+                135,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "677": {
+            "posicao": [
+                135,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "678": {
+            "posicao": [
+                135,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "679": {
+            "posicao": [
+                135,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "680": {
+            "posicao": [
+                135,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "681": {
+            "posicao": [
+                135,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "682": {
+            "posicao": [
+                135,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "683": {
+            "posicao": [
+                135,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "684": {
+            "posicao": [
+                135,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "685": {
+            "posicao": [
+                135,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "686": {
+            "posicao": [
+                135,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "687": {
+            "posicao": [
+                135,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "688": {
+            "posicao": [
+                135,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "689": {
+            "posicao": [
+                135,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "690": {
+            "posicao": [
+                135,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "691": {
+            "posicao": [
+                135,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "692": {
+            "posicao": [
+                135,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "693": {
+            "posicao": [
+                135,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "694": {
+            "posicao": [
+                135,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "695": {
+            "posicao": [
+                135,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "696": {
+            "posicao": [
+                135,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "697": {
+            "posicao": [
+                135,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "698": {
+            "posicao": [
+                135,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "699": {
+            "posicao": [
+                165,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "700": {
+            "posicao": [
+                165,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "701": {
+            "posicao": [
+                165,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "702": {
+            "posicao": [
+                165,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "703": {
+            "posicao": [
+                165,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "704": {
+            "posicao": [
+                165,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "705": {
+            "posicao": [
+                165,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "706": {
+            "posicao": [
+                165,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "707": {
+            "posicao": [
+                165,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "708": {
+            "posicao": [
+                165,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "709": {
+            "posicao": [
+                165,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "710": {
+            "posicao": [
+                165,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "711": {
+            "posicao": [
+                165,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "712": {
+            "posicao": [
+                165,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "713": {
+            "posicao": [
+                165,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "714": {
+            "posicao": [
+                165,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "715": {
+            "posicao": [
+                165,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "716": {
+            "posicao": [
+                165,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "717": {
+            "posicao": [
+                165,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "718": {
+            "posicao": [
+                165,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "719": {
+            "posicao": [
+                165,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "720": {
+            "posicao": [
+                165,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "721": {
+            "posicao": [
+                165,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "722": {
+            "posicao": [
+                165,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "723": {
+            "posicao": [
+                165,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "724": {
+            "posicao": [
+                165,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "725": {
+            "posicao": [
+                165,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "726": {
+            "posicao": [
+                165,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "727": {
+            "posicao": [
+                165,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "728": {
+            "posicao": [
+                165,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "729": {
+            "posicao": [
+                165,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "730": {
+            "posicao": [
+                195,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "731": {
+            "posicao": [
+                195,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "732": {
+            "posicao": [
+                195,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "733": {
+            "posicao": [
+                195,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "734": {
+            "posicao": [
+                195,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "735": {
+            "posicao": [
+                195,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "736": {
+            "posicao": [
+                195,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "737": {
+            "posicao": [
+                195,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "738": {
+            "posicao": [
+                195,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "739": {
+            "posicao": [
+                195,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "740": {
+            "posicao": [
+                195,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "741": {
+            "posicao": [
+                195,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "742": {
+            "posicao": [
+                195,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "743": {
+            "posicao": [
+                195,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "744": {
+            "posicao": [
+                195,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "745": {
+            "posicao": [
+                195,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "746": {
+            "posicao": [
+                195,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "747": {
+            "posicao": [
+                195,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "748": {
+            "posicao": [
+                195,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "749": {
+            "posicao": [
+                195,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "750": {
+            "posicao": [
+                195,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "751": {
+            "posicao": [
+                195,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "752": {
+            "posicao": [
+                195,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "753": {
+            "posicao": [
+                195,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "754": {
+            "posicao": [
+                195,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "755": {
+            "posicao": [
+                195,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "756": {
+            "posicao": [
+                195,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "757": {
+            "posicao": [
+                195,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "758": {
+            "posicao": [
+                195,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "759": {
+            "posicao": [
+                195,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "760": {
+            "posicao": [
+                195,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "761": {
+            "posicao": [
+                225,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "762": {
+            "posicao": [
+                225,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "763": {
+            "posicao": [
+                225,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "764": {
+            "posicao": [
+                225,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "765": {
+            "posicao": [
+                225,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "766": {
+            "posicao": [
+                225,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "767": {
+            "posicao": [
+                225,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "768": {
+            "posicao": [
+                225,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "769": {
+            "posicao": [
+                225,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "770": {
+            "posicao": [
+                225,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "771": {
+            "posicao": [
+                225,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "772": {
+            "posicao": [
+                225,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "773": {
+            "posicao": [
+                225,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "774": {
+            "posicao": [
+                225,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "775": {
+            "posicao": [
+                225,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "776": {
+            "posicao": [
+                225,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "777": {
+            "posicao": [
+                225,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "778": {
+            "posicao": [
+                225,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "779": {
+            "posicao": [
+                225,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "780": {
+            "posicao": [
+                225,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "781": {
+            "posicao": [
+                225,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "782": {
+            "posicao": [
+                225,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "783": {
+            "posicao": [
+                225,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "784": {
+            "posicao": [
+                225,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "785": {
+            "posicao": [
+                225,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "786": {
+            "posicao": [
+                225,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "787": {
+            "posicao": [
+                225,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "788": {
+            "posicao": [
+                225,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "789": {
+            "posicao": [
+                225,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "790": {
+            "posicao": [
+                225,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "791": {
+            "posicao": [
+                225,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "792": {
+            "posicao": [
+                255,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "793": {
+            "posicao": [
+                255,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "794": {
+            "posicao": [
+                255,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "795": {
+            "posicao": [
+                255,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "796": {
+            "posicao": [
+                255,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "797": {
+            "posicao": [
+                255,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "798": {
+            "posicao": [
+                255,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "799": {
+            "posicao": [
+                255,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "800": {
+            "posicao": [
+                255,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "801": {
+            "posicao": [
+                255,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "802": {
+            "posicao": [
+                255,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "803": {
+            "posicao": [
+                255,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "804": {
+            "posicao": [
+                255,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "805": {
+            "posicao": [
+                255,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "806": {
+            "posicao": [
+                255,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "807": {
+            "posicao": [
+                255,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "808": {
+            "posicao": [
+                255,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "809": {
+            "posicao": [
+                255,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "810": {
+            "posicao": [
+                255,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "811": {
+            "posicao": [
+                255,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "812": {
+            "posicao": [
+                255,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "813": {
+            "posicao": [
+                255,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "814": {
+            "posicao": [
+                255,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "815": {
+            "posicao": [
+                255,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "816": {
+            "posicao": [
+                255,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "817": {
+            "posicao": [
+                255,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "818": {
+            "posicao": [
+                255,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "819": {
+            "posicao": [
+                255,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "820": {
+            "posicao": [
+                255,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "821": {
+            "posicao": [
+                255,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "822": {
+            "posicao": [
+                255,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "823": {
+            "posicao": [
+                285,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "824": {
+            "posicao": [
+                285,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "825": {
+            "posicao": [
+                285,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "826": {
+            "posicao": [
+                285,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "827": {
+            "posicao": [
+                285,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "828": {
+            "posicao": [
+                285,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "829": {
+            "posicao": [
+                285,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "830": {
+            "posicao": [
+                285,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "831": {
+            "posicao": [
+                285,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "832": {
+            "posicao": [
+                285,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "833": {
+            "posicao": [
+                285,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "834": {
+            "posicao": [
+                285,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "835": {
+            "posicao": [
+                285,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "836": {
+            "posicao": [
+                285,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "837": {
+            "posicao": [
+                285,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "838": {
+            "posicao": [
+                285,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "839": {
+            "posicao": [
+                285,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "840": {
+            "posicao": [
+                285,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "841": {
+            "posicao": [
+                285,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "842": {
+            "posicao": [
+                285,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "843": {
+            "posicao": [
+                285,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "844": {
+            "posicao": [
+                285,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "845": {
+            "posicao": [
+                285,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "846": {
+            "posicao": [
+                285,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "847": {
+            "posicao": [
+                285,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "848": {
+            "posicao": [
+                285,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "849": {
+            "posicao": [
+                285,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "850": {
+            "posicao": [
+                285,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "851": {
+            "posicao": [
+                285,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "852": {
+            "posicao": [
+                285,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "853": {
+            "posicao": [
+                285,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "854": {
+            "posicao": [
+                315,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "855": {
+            "posicao": [
+                315,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "856": {
+            "posicao": [
+                315,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "857": {
+            "posicao": [
+                315,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "858": {
+            "posicao": [
+                315,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "859": {
+            "posicao": [
+                315,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "860": {
+            "posicao": [
+                315,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "861": {
+            "posicao": [
+                315,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "862": {
+            "posicao": [
+                315,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "863": {
+            "posicao": [
+                315,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "864": {
+            "posicao": [
+                315,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "865": {
+            "posicao": [
+                315,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "866": {
+            "posicao": [
+                315,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "867": {
+            "posicao": [
+                315,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "868": {
+            "posicao": [
+                315,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "869": {
+            "posicao": [
+                315,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "870": {
+            "posicao": [
+                315,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "871": {
+            "posicao": [
+                315,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "872": {
+            "posicao": [
+                315,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "873": {
+            "posicao": [
+                315,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "874": {
+            "posicao": [
+                315,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "875": {
+            "posicao": [
+                315,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "876": {
+            "posicao": [
+                315,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "877": {
+            "posicao": [
+                315,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "878": {
+            "posicao": [
+                315,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "879": {
+            "posicao": [
+                315,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "880": {
+            "posicao": [
+                315,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "881": {
+            "posicao": [
+                315,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "882": {
+            "posicao": [
+                315,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "883": {
+            "posicao": [
+                315,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "884": {
+            "posicao": [
+                315,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "885": {
+            "posicao": [
+                345,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "886": {
+            "posicao": [
+                345,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "887": {
+            "posicao": [
+                345,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "888": {
+            "posicao": [
+                345,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "889": {
+            "posicao": [
+                345,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "890": {
+            "posicao": [
+                345,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "891": {
+            "posicao": [
+                345,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "892": {
+            "posicao": [
+                345,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "893": {
+            "posicao": [
+                345,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "894": {
+            "posicao": [
+                345,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "895": {
+            "posicao": [
+                345,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "896": {
+            "posicao": [
+                345,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "897": {
+            "posicao": [
+                345,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "898": {
+            "posicao": [
+                345,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "899": {
+            "posicao": [
+                345,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "900": {
+            "posicao": [
+                345,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "901": {
+            "posicao": [
+                345,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "902": {
+            "posicao": [
+                345,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "903": {
+            "posicao": [
+                345,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "904": {
+            "posicao": [
+                345,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "905": {
+            "posicao": [
+                345,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "906": {
+            "posicao": [
+                345,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "907": {
+            "posicao": [
+                345,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "908": {
+            "posicao": [
+                345,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "909": {
+            "posicao": [
+                345,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "910": {
+            "posicao": [
+                345,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "911": {
+            "posicao": [
+                345,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "912": {
+            "posicao": [
+                345,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "913": {
+            "posicao": [
+                345,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "914": {
+            "posicao": [
+                345,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "915": {
+            "posicao": [
+                345,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "916": {
+            "posicao": [
+                375,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "917": {
+            "posicao": [
+                375,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "918": {
+            "posicao": [
+                375,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "919": {
+            "posicao": [
+                375,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "920": {
+            "posicao": [
+                375,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "921": {
+            "posicao": [
+                375,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "922": {
+            "posicao": [
+                375,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "923": {
+            "posicao": [
+                375,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "924": {
+            "posicao": [
+                375,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "925": {
+            "posicao": [
+                375,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "926": {
+            "posicao": [
+                375,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "927": {
+            "posicao": [
+                375,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "928": {
+            "posicao": [
+                375,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "929": {
+            "posicao": [
+                375,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "930": {
+            "posicao": [
+                375,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "931": {
+            "posicao": [
+                375,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "932": {
+            "posicao": [
+                375,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "933": {
+            "posicao": [
+                375,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "934": {
+            "posicao": [
+                375,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "935": {
+            "posicao": [
+                375,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "936": {
+            "posicao": [
+                375,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "937": {
+            "posicao": [
+                375,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "938": {
+            "posicao": [
+                375,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "939": {
+            "posicao": [
+                375,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "940": {
+            "posicao": [
+                375,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "941": {
+            "posicao": [
+                375,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "942": {
+            "posicao": [
+                375,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "943": {
+            "posicao": [
+                375,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "944": {
+            "posicao": [
+                375,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "945": {
+            "posicao": [
+                375,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "946": {
+            "posicao": [
+                375,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "947": {
+            "posicao": [
+                405,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "948": {
+            "posicao": [
+                405,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "949": {
+            "posicao": [
+                405,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "950": {
+            "posicao": [
+                405,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "951": {
+            "posicao": [
+                405,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "952": {
+            "posicao": [
+                405,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "953": {
+            "posicao": [
+                405,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "954": {
+            "posicao": [
+                405,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "955": {
+            "posicao": [
+                405,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "956": {
+            "posicao": [
+                405,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "957": {
+            "posicao": [
+                405,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "958": {
+            "posicao": [
+                405,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "959": {
+            "posicao": [
+                405,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "960": {
+            "posicao": [
+                405,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "961": {
+            "posicao": [
+                405,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "962": {
+            "posicao": [
+                405,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "963": {
+            "posicao": [
+                405,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "964": {
+            "posicao": [
+                405,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "965": {
+            "posicao": [
+                405,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "966": {
+            "posicao": [
+                405,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "967": {
+            "posicao": [
+                405,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "968": {
+            "posicao": [
+                405,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "969": {
+            "posicao": [
+                405,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "970": {
+            "posicao": [
+                405,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "971": {
+            "posicao": [
+                405,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "972": {
+            "posicao": [
+                405,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "973": {
+            "posicao": [
+                405,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "974": {
+            "posicao": [
+                405,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "975": {
+            "posicao": [
+                405,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "976": {
+            "posicao": [
+                405,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "977": {
+            "posicao": [
+                405,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "978": {
+            "posicao": [
+                435,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "979": {
+            "posicao": [
+                435,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "980": {
+            "posicao": [
+                435,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "981": {
+            "posicao": [
+                435,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "982": {
+            "posicao": [
+                435,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "983": {
+            "posicao": [
+                435,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "984": {
+            "posicao": [
+                435,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "985": {
+            "posicao": [
+                435,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "986": {
+            "posicao": [
+                435,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "987": {
+            "posicao": [
+                435,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "988": {
+            "posicao": [
+                435,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "989": {
+            "posicao": [
+                435,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "990": {
+            "posicao": [
+                435,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "991": {
+            "posicao": [
+                435,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "992": {
+            "posicao": [
+                435,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "993": {
+            "posicao": [
+                435,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "994": {
+            "posicao": [
+                435,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "995": {
+            "posicao": [
+                435,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "996": {
+            "posicao": [
+                435,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "997": {
+            "posicao": [
+                435,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "998": {
+            "posicao": [
+                435,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "999": {
+            "posicao": [
+                435,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1000": {
+            "posicao": [
+                435,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1001": {
+            "posicao": [
+                435,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1002": {
+            "posicao": [
+                435,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1003": {
+            "posicao": [
+                435,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1004": {
+            "posicao": [
+                435,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1005": {
+            "posicao": [
+                435,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1006": {
+            "posicao": [
+                435,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1007": {
+            "posicao": [
+                435,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1008": {
+            "posicao": [
+                435,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1009": {
+            "posicao": [
+                465,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1010": {
+            "posicao": [
+                465,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1011": {
+            "posicao": [
+                465,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1012": {
+            "posicao": [
+                465,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1013": {
+            "posicao": [
+                465,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1014": {
+            "posicao": [
+                465,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1015": {
+            "posicao": [
+                465,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1016": {
+            "posicao": [
+                465,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1017": {
+            "posicao": [
+                465,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1018": {
+            "posicao": [
+                465,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1019": {
+            "posicao": [
+                465,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1020": {
+            "posicao": [
+                465,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1021": {
+            "posicao": [
+                465,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1022": {
+            "posicao": [
+                465,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1023": {
+            "posicao": [
+                465,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1024": {
+            "posicao": [
+                465,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1025": {
+            "posicao": [
+                465,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1026": {
+            "posicao": [
+                465,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1027": {
+            "posicao": [
+                465,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1028": {
+            "posicao": [
+                465,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1029": {
+            "posicao": [
+                465,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1030": {
+            "posicao": [
+                465,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1031": {
+            "posicao": [
+                465,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1032": {
+            "posicao": [
+                465,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1033": {
+            "posicao": [
+                465,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1034": {
+            "posicao": [
+                465,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1035": {
+            "posicao": [
+                465,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1036": {
+            "posicao": [
+                465,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1037": {
+            "posicao": [
+                465,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1038": {
+            "posicao": [
+                465,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1039": {
+            "posicao": [
+                465,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1040": {
+            "posicao": [
+                495,
+                8
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1041": {
+            "posicao": [
+                495,
+                24
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1042": {
+            "posicao": [
+                495,
+                40
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1043": {
+            "posicao": [
+                495,
+                56
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1044": {
+            "posicao": [
+                495,
+                72
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1045": {
+            "posicao": [
+                495,
+                88
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1046": {
+            "posicao": [
+                495,
+                104
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1047": {
+            "posicao": [
+                495,
+                120
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1048": {
+            "posicao": [
+                495,
+                136
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1049": {
+            "posicao": [
+                495,
+                152
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1050": {
+            "posicao": [
+                495,
+                168
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1051": {
+            "posicao": [
+                495,
+                184
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1052": {
+            "posicao": [
+                495,
+                200
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1053": {
+            "posicao": [
+                495,
+                216
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1054": {
+            "posicao": [
+                495,
+                232
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1055": {
+            "posicao": [
+                495,
+                248
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1056": {
+            "posicao": [
+                495,
+                264
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1057": {
+            "posicao": [
+                495,
+                280
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1058": {
+            "posicao": [
+                495,
+                296
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1059": {
+            "posicao": [
+                495,
+                312
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1060": {
+            "posicao": [
+                495,
+                328
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1061": {
+            "posicao": [
+                495,
+                344
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1062": {
+            "posicao": [
+                495,
+                360
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1063": {
+            "posicao": [
+                495,
+                376
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1064": {
+            "posicao": [
+                495,
+                392
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1065": {
+            "posicao": [
+                495,
+                408
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1066": {
+            "posicao": [
+                495,
+                424
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1067": {
+            "posicao": [
+                495,
+                440
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1068": {
+            "posicao": [
+                495,
+                456
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1069": {
+            "posicao": [
+                495,
+                472
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        },
+        "1070": {
+            "posicao": [
+                495,
+                488
+            ],
+            "ptx": 40,
+            "frequencia": 2.0
+        }
+    },
+    "n_pixels_x": 500,
+    "n_pixels_y": 500,
+    "pixel_size": 10
+}

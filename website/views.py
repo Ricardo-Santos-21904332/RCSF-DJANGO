@@ -10,6 +10,8 @@ from .forms import FormGraficoPlaneamento
 from .forms import FormProbabilidadeDeBloqueio
 from .forms import FormQuantidadeDeCanais
 from .forms import FormTrafegoOferecido
+from .forms import FormHeatmapAntena
+from.forms import FormDiagramaRadiacaoAntena
 from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
 from .functions import tamanho_minimo_cluster
@@ -19,6 +21,8 @@ from .functions import cria_mapas_celulas
 from .functions import calculaProbabilidadeDeBloqueio
 from .functions import calculaQuantidadeCanais
 from .functions import calculaTrafegoOferecido
+from .functions import cria_heatmap
+from .functions import cria_diagrama_radiacao
 
 
 # Create your views here.
@@ -210,3 +214,41 @@ def trafego_oferecido(request):
     context = {'form': form, 'submetido': submetido, 'result': result}
 
     return render(request, "website/trafego_oferecido.html", context)
+
+
+def heatmap_antena(request):
+    submetido = False
+    form = FormHeatmapAntena(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        cria_heatmap(
+            form.cleaned_data['ptx'],
+            form.cleaned_data['f'],
+            form.cleaned_data['j_antena'],
+            form.cleaned_data['i_antena'],
+            form.cleaned_data['azimute'],
+            form.cleaned_data['antena'],
+            form.cleaned_data['ganho_recepcao'],
+            form.cleaned_data['pixel'],
+        )
+
+    context = {'form': form, 'submetido': submetido}
+
+    return render(request, "website/heatmapAntena.html", context)
+
+
+def digrama_radicao_antena(request):
+    submetido = False
+    form = FormDiagramaRadiacaoAntena(request.POST or None)
+
+    if form.is_valid():
+        submetido = True
+        cria_diagrama_radiacao(
+            form.cleaned_data['antena'],
+            form.cleaned_data['ganho_minimo'],
+        )
+
+    context = {'form': form, 'submetido': submetido}
+
+    return render(request, "website/diagramaRadiacaoAntena.html", context)

@@ -56,3 +56,29 @@ class FormQuantidadeDeCanais(forms.Form):
 class FormTrafegoOferecido(forms.Form):
     n = forms.IntegerField(label="Quantidade De Canais (N)")
     pb = forms.FloatField(label="Probabilidade De Bloqueio (Pb)")
+
+
+class FormHeatmapAntena(forms.Form):
+    antenas = (
+        ("729265_0948_X_CO.msi", "729265_0948_X_CO.msi"),
+        ("739633_0948_X_CO_P45.msi", "739633_0948_X_CO_P45.msi"),
+        ("741785_0948_X_CO_P45.msi", "741785_0948_X_CO_P45.msi"),
+    )
+    ptx = forms.IntegerField(label="Potência Transmitida")
+    f = forms.IntegerField(label="Frequência [MHz]")
+    j_antena = forms.IntegerField(label="Coordenada j da antena")
+    i_antena = forms.IntegerField(label="Coordenada i da antena")
+    azimute = forms.IntegerField(label="Azimute")
+    antena = forms.TypedChoiceField(label="Antena", choices=antenas)
+    ganho_recepcao = forms.IntegerField(label="Ganho de recepção")
+    pixel = forms.IntegerField(label="Pixel")
+
+
+class FormDiagramaRadiacaoAntena(forms.Form):
+    antenas = (
+        ("729265_0948_X_CO.msi", "729265_0948_X_CO.msi"),
+        ("739633_0948_X_CO_P45.msi", "739633_0948_X_CO_P45.msi"),
+        ("741785_0948_X_CO_P45.msi", "741785_0948_X_CO_P45.msi"),
+    )
+    ganho_minimo = forms.IntegerField(label="Ganho de mínimo")
+    antena = forms.TypedChoiceField(label="Antena", choices=antenas)

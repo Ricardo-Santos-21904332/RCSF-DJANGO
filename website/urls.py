@@ -19,4 +19,6 @@ urlpatterns = [
     path('quantidade_canais/', views.quantidade_canais, name='quantidade_canais'),
     path('trafego_oferecido/', views.trafego_oferecido, name='trafego_oferecido'),
     path('Erlang_B/', views.Erlang_B, name='Erlang_B'),
+    path('digrama_radicao_antena', views.digrama_radicao_antena, name='digrama_radicao_antena'),
+    path('heatmap_antena', views.heatmap_antena, name='heatmap_antena')
 ]

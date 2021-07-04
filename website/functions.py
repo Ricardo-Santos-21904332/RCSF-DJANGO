@@ -344,7 +344,6 @@ def extrai_mapa(mapa, celula):
 def desenha_mapa(mapa, nome, tipo):
     plt.clf()
     ax = sns.heatmap(mapa)
-    # f'{nome[:-5]}-{tipo}
     plt.savefig('website/static/website/images/' + f'{tipo}.png')
 
 
@@ -369,3 +368,121 @@ def calculaTrafegoOferecido(pb, n):
         if pb + 0.001 >= pb_procura >= pb - 0.01:
             return i
     return 0
+
+
+def cria_grelha_vazia(pixel, largura, altura) -> 'matriz (lista de listas)':
+    n_linhas = int(largura / pixel)
+    n_colunas = int(altura / pixel)
+
+    grelha = []
+    for i in range(n_linhas):
+        grelha.append([None] * n_colunas)
+
+    return grelha
+
+
+def cria_diagramaH(ficheiro_antena):
+    # criar uma estrutura com o diagrama da antena
+    ficheiro = open(os.path.join(f'website/static/website/dbAntenas/{ficheiro_antena}'),"r")
+    listaFicheiro = ficheiro.read().splitlines()
+    indice_horizontal = listaFicheiro.index("HORIZONTAL 360")
+    indice_vertical = listaFicheiro.index("VERTICAL 360")
+    # construir a lista horizontal
+    diagrama_h = []
+    for linha in listaFicheiro[indice_horizontal + 1: indice_vertical]:
+        diagrama_h.append(linha)
+    return diagrama_h
+
+
+def ganho_antena(x_antena, y_antena, x_p, y_p, azimute, diagrama_h):
+    # Cálculo do theta
+    try:
+        tetha = math.atan((abs(y_p - y_antena) / abs(x_p - x_antena)))
+    except:
+        return 0
+    # d = math.sqrt(((x_p-x_antena)**2) + ((y_p-y_antena)**2))
+    # tetha = math.acos(abs((x_antena-x_p)/d))
+    # Cálculo do alpha da antena
+    alpha = 0
+    if x_p > x_antena and y_p > y_antena:
+        alpha = (math.pi / 2 - tetha) * 180 / math.pi
+    elif x_p > x_antena and y_p < y_antena:
+        alpha = (math.pi / 2 + tetha) * 180 / math.pi
+    elif x_p < x_antena and y_p < y_antena:
+        alpha = ((3 * math.pi) / 2 - tetha) * 180 / math.pi
+    elif x_p < x_antena and y_p > y_antena:
+        alpha = ((3 * math.pi) / 2 + tetha) * 180 / math.pi
+    alpha_antena = alpha - azimute
+    for linha in diagrama_h:
+        angulo, ganho = linha.split()
+        if float(angulo) == float(round(alpha_antena)):
+            return -float(ganho)
+    return 0
+
+
+def cria_heatmap(ptx, f, j_antena, i_antena, azimute, antena, ganho_recepcao,
+                 pixel) -> 'heatmap de potencia recebida':
+    grelha = cria_grelha_vazia(pixel, 200, 200)
+    diagrama_h = cria_diagramaH(antena)
+    n_linhas = len(grelha)
+    n_colunas = len(grelha[0])
+
+    for i in range(n_linhas):
+        for j in range(n_colunas):
+            if i == i_antena and j == j_antena:
+                grelha[i][j] = -80
+            else:
+                ganho_tx = ganho_antena(j_antena, i_antena, j, i, azimute, diagrama_h)
+                d = math.sqrt(((j - j_antena) ** 2) + ((i - i_antena) ** 2)) * pixel
+                grelha[i][j] = ptx + ganho_tx - l_free_space(d, f) + ganho_recepcao
+    ax = sns.heatmap(grelha)
+    plt.savefig('website/static/website/images/' + f'heatmap.png')
+    plt.close()
+
+def cria_diagrama_radiacao(ficheiro_antena, ganho_minimo):
+    with open(os.path.join(f'website/static/website/dbAntenas/{ficheiro_antena}')) as file:
+        dados = file.readlines()
+
+        indice_horizontal = dados.index("HORIZONTAL 360\n")
+
+        indice_vertical = dados.index("VERTICAL 360\n")
+
+        print(indice_horizontal, indice_vertical)
+
+        # construir as listas horizontal e vertical
+
+        angulos = []
+
+        horizontal = []
+
+        for linha in dados[indice_horizontal + 1: indice_vertical]:
+            angulo, ganho = linha.split()
+            angulos.append(float(angulo) / 360 * 2 * math.pi)
+            horizontal.append(max(-float(ganho), ganho_minimo))
+
+        vertical = [max(-float(linha.split()[1]), ganho_minimo) for linha in dados[indice_vertical + 1:]]
+
+        h = plt.subplot(projection="polar")
+        h.plot(angulos, horizontal, "red", label="horizontal")
+
+        h.set_title('Diagrama Horizontal', pad=20, size=16)
+        h.set_rgrids([r for r in range(0, ganho_minimo, -5)])  # grid radial
+        h.set_thetagrids([r for r in range(0, 360, 15)])  # grid angular
+        h.set_theta_direction(-1)
+        h.set_theta_offset(math.pi / 2)
+        h.set_rmin(ganho_minimo)
+
+        plt.savefig('website/static/website/images/diagramaHorizontal.png')
+        plt.close()
+
+        v = plt.subplot(projection="polar")
+        v.plot(angulos, vertical, "green", label="vertical")
+
+        v.set_title('Diagrama Vertical', pad=20, size=16)
+        v.set_rgrids([r for r in range(0, ganho_minimo, -5)])  # grid radial
+        v.set_thetagrids([r for r in range(0, 360, 15)])  # grid angular
+        v.set_theta_direction(-1)
+        v.set_rmin(ganho_minimo)
+
+        plt.savefig('website/static/website/images/diagramaVertical.png')
+        plt.close()

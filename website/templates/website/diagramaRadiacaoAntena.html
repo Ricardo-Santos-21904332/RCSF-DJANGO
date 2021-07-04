@@ -1,0 +1,26 @@
+{% extends 'website/layout.html' %}
+
+{% block main %}
+    <div class="col-md-6">
+        <h2>Diagrama de radiação de uma antena</h2>
+
+        <form action=" {% url 'website:digrama_radicao_antena' %} " method="POST">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <input type="submit">
+        </form>
+
+    </div>
+    <div class="col-md-6">
+
+        {% if submetido %}
+            {% load static %}
+            <p style="text-align: center">Diagrama Horizontal</p>
+            <img src=" {% static "website/images/diagramaHorizontal.png" %}" alt="" width="100%">
+            <p style="text-align: center">Diagrama Vertical</p>
+            <img src=" {% static "website/images/diagramaVertical.png" %}" alt="" width="100%">
+        {% endif %}
+
+    </div>
+{% endblock main %}

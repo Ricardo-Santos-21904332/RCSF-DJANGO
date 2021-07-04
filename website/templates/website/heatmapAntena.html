@@ -2,9 +2,9 @@
 
 {% block main %}
     <div class="col-md-6">
-        <h2>Gráficos Planeamento Celular</h2>
+        <h2>Heatmap de uma antena</h2>
 
-        <form action=" {% url 'website:grafico_Planeamento' %} " method="POST">
+        <form action=" {% url 'website:heatmap_antena' %} " method="POST">
             {% csrf_token %}
             {{ form.as_p }}
 
@@ -16,7 +16,7 @@
 
         {% if submetido %}
             {% load static %}
-            <img src=" {% static "website/images/best_server.png" %}" alt="" width="100%">
+            <img src=" {% static "website/images/heatmap.png" %}" alt="" width="100%">
         {% endif %}
 
     </div>
