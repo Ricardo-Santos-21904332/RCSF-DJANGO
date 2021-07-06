@@ -37,10 +37,10 @@ class FormGraficoCINcp(forms.Form):
 class FormGraficoPlaneamento(forms.Form):
     n_pixels_x = forms.IntegerField(label="Número de pixels (eixo X)")
     n_pixels_y = forms.IntegerField(label="Número de pixels (eixo Y)")
-    raio = forms.IntegerField(label="Raio em pixels")
-    ptx = forms.IntegerField(label="Potência transmitida")
+    raio = forms.IntegerField(label="Raio [pixels]")
+    ptx = forms.IntegerField(label="Potência transmitida [dBm]")
     frequencia = forms.FloatField(label="Frequência [GHz]")
-    pixel_size = forms.IntegerField(label="Tamanho do pixel")
+    pixel_size = forms.IntegerField(label="Tamanho do pixel [m]")
 
 
 class FormProbabilidadeDeBloqueio(forms.Form):
@@ -64,13 +64,13 @@ class FormHeatmapAntena(forms.Form):
         ("739633_0948_X_CO_P45.msi", "739633_0948_X_CO_P45.msi"),
         ("741785_0948_X_CO_P45.msi", "741785_0948_X_CO_P45.msi"),
     )
-    ptx = forms.IntegerField(label="Potência Transmitida")
+    ptx = forms.IntegerField(label="Potência Transmitida [dBm]")
     f = forms.IntegerField(label="Frequência [MHz]")
     j_antena = forms.IntegerField(label="Coordenada j da antena")
     i_antena = forms.IntegerField(label="Coordenada i da antena")
     azimute = forms.IntegerField(label="Azimute")
     antena = forms.TypedChoiceField(label="Antena", choices=antenas)
-    ganho_recepcao = forms.IntegerField(label="Ganho de recepção")
+    ganho_recepcao = forms.IntegerField(label="Ganho de recepção [dBi]")
     pixel = forms.IntegerField(label="Pixel")
 
 
@@ -80,5 +80,5 @@ class FormDiagramaRadiacaoAntena(forms.Form):
         ("739633_0948_X_CO_P45.msi", "739633_0948_X_CO_P45.msi"),
         ("741785_0948_X_CO_P45.msi", "741785_0948_X_CO_P45.msi"),
     )
-    ganho_minimo = forms.IntegerField(label="Ganho de mínimo")
+    ganho_minimo = forms.IntegerField(label="Ganho de mínimo [dBm]")
     antena = forms.TypedChoiceField(label="Antena", choices=antenas)

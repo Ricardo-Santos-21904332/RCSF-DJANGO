@@ -2,7 +2,7 @@
 
 {% block main %}
     <div class="col-md-6">
-        <h2>Tamanho mínimo do Cluster</h2>
+        <h2 style="background-color:lightgray;text-align: center">Tamanho mínimo do Cluster</h2>
 
         <form action=" {% url 'website:tamanho_cluster' %} " method="POST">
             {% csrf_token %}

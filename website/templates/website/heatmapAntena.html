@@ -2,7 +2,7 @@
 
 {% block main %}
     <div class="col-md-6">
-        <h2>Heatmap de uma antena</h2>
+        <h2 style="background-color:lightgray;text-align: center">Heatmap de uma antena</h2>
 
         <form action=" {% url 'website:heatmap_antena' %} " method="POST">
             {% csrf_token %}

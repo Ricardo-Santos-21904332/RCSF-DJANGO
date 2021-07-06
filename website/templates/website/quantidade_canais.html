@@ -2,7 +2,7 @@
 
 {% block main %}
     <div class="col-md-6">
-        <h2>Quantidade De Canais</h2>
+        <h2 style="background-color:lightgray;text-align: center">Quantidade De Canais</h2>
 
         <form action=" {% url 'website:quantidade_canais' %} " method="POST">
             {% csrf_token %}

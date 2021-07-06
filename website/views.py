@@ -11,7 +11,7 @@ from .forms import FormProbabilidadeDeBloqueio
 from .forms import FormQuantidadeDeCanais
 from .forms import FormTrafegoOferecido
 from .forms import FormHeatmapAntena
-from.forms import FormDiagramaRadiacaoAntena
+from .forms import FormDiagramaRadiacaoAntena
 from .functions import atenuacaoEspacoLivre_grafico
 from .functions import atenuacaoEspacoLivre
 from .functions import tamanho_minimo_cluster

@@ -246,7 +246,7 @@ def cria_mapa_vazio(size_x, size_y):
 
 def calcula_distancia(c_x, c_y, x, y, pixel_size):
     # cálculo da distancia entre dois pontos
-    # usando o teorema de Pitágoras e a dimensão do pixe
+    # usando o teorema de Pitágoras e a dimensão do pixel
 
     distancia = math.sqrt((c_x - x) ** 2 + (c_y - y) ** 2) * pixel_size
 
@@ -345,6 +345,7 @@ def desenha_mapa(mapa, nome, tipo):
     plt.clf()
     ax = sns.heatmap(mapa)
     plt.savefig('website/static/website/images/' + f'{tipo}.png')
+    plt.close()
 
 
 def calculaProbabilidadeDeBloqueio(t, n):

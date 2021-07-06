@@ -2,7 +2,7 @@
 
 {% block main %}
     <div class="col-md-6">
-        <h2>Tráfego Oferecido</h2>
+        <h2 style="background-color:lightgray;text-align: center">Tráfego Oferecido</h2>
 
         <form action=" {% url 'website:trafego_oferecido' %} " method="POST">
             {% csrf_token %}
