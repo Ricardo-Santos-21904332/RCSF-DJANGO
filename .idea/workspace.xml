@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0c1eb43-594d-43fd-94eb-227a0b845eff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/website/static/website/json/100x100-r10-10m-40dBm-1200.0GHz-46cells.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/CIvsNCP.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/diagramaHorizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/diagramaHorizontal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/static/website/images/diagramaVertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/diagramaVertical.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/images/free-space.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/free-space.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/static/website/images/heatmap.png" beforeDir="false" afterPath="$PROJECT_DIR$/website/static/website/images/heatmap.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/templates/website/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/diagramaRadiacaoAntena.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/diagramaRadiacaoAntena.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/espaco-livre.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/espaco-livre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/graficoCINCP.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/graficoCINCP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/graficos_planeamento.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/graficos_planeamento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/heatmapAntena.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/heatmapAntena.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/okumura_hata.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/okumura_hata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/probabilidade_bloqueio.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/probabilidade_bloqueio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/quantidade_canais.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/quantidade_canais.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/tamanho_cluster.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/tamanho_cluster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/trafego_oferecido.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/trafego_oferecido.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/templates/website/walfisch_ikegami.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/templates/website/walfisch_ikegami.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +94,9 @@
       <workItem from="1625347027348" duration="1219000" />
       <workItem from="1625399741477" duration="3940000" />
       <workItem from="1625491661305" duration="173000" />
-      <workItem from="1625590644837" duration="1732000" />
+      <workItem from="1625590644837" duration="2251000" />
+      <workItem from="1625662900695" duration="303000" />
+      <workItem from="1625688038482" duration="254000" />
     </task>
     <servers />
   </component>
